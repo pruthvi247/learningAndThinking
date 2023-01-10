@@ -1,0 +1,6 @@
+- use constant when ever possible
+- use const constructor
+- use required if needed
+- use final when ever possible
+- use abstract classes
+- use private variables and make gettter for the private variables
