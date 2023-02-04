@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "dc86222dbf791d91",
+    "type": "split",
+    "children": [
+      {
+        "id": "b649dcccb2693943",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d2906ec584ba6b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/buttons_adapter_veliBacik.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12c1e31ff5043f73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "650a939fa7805a28",
+    "type": "split",
+    "children": [
+      {
+        "id": "efe30ee6a9f22436",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1b3599a79d2c5d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f413537cfb7bbe5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2bbe8e921de1cfb2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2077da14332d88d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "54ed9c6cfd1110ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72a10a79f8061f6a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0ecba66fc7e395b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "efc436527c728067",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fc5b1ad1eb4e7599",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fc5b1ad1eb4e7599",
+  "lastOpenFiles": [
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/buttons_adapter_veliBacik.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md",
+    "DesignpatternsAndAlgo/Dynamic Programming.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Intro.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/Intro.md",
+    "flutter-course-vandad/chapter-5/chapter-5-sound-null-saftey.md"
+  ]
+}
