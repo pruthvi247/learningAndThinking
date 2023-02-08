@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/Fibonacci.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ee1b8b5e86399b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "928299b52406f2e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md",
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md",
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md"
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md"
               }
             }
           }
@@ -160,13 +184,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc5b1ad1eb4e7599",
+  "active": "928299b52406f2e3",
   "lastOpenFiles": [
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/buttons_adapter_veliBacik.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md",
-    "DesignpatternsAndAlgo/Dynamic Programming.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Intro.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/Intro.md",
-    "flutter-course-vandad/chapter-5/chapter-5-sound-null-saftey.md"
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/buttons_adapter_veliBacik.md",
+    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/canConstruct.md",
+    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/camSum.md",
+    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/BestSum.md",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230207200546.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230207200718.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230207201017.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230207202430.png",
+    "DesignpatternsAndAlgo/Images/Screenshot 2023-02-06 at 4.49.43 PM.png"
   ]
 }
