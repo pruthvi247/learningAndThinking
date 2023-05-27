@@ -4,35 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "b649dcccb2693943",
+        "id": "cc182820faf33968",
         "type": "tabs",
         "children": [
           {
-            "id": "6d2906ec584ba6b1",
+            "id": "cbfc21bb3d277388",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/buttons_adapter_veliBacik.md",
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "12c1e31ff5043f73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/Fibonacci.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ee1b8b5e86399b9",
+            "id": "b76762ccb4b80e01",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,19 +32,19 @@
             }
           },
           {
-            "id": "928299b52406f2e3",
+            "id": "91d2a12f6b3c3868",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
+                "file": "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,12 +89,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "803d0991b32b616b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -122,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
+                "file": "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
+                "file": "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md"
+                "file": "ML/gentle-introduction-to-large-language-models-without-the-hype.md"
               }
             }
           }
@@ -184,17 +181,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "928299b52406f2e3",
+  "active": "91d2a12f6b3c3868",
   "lastOpenFiles": [
+    "DesignpatternsAndAlgo/Images/Pasted image 20230527155323.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230527155227.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230527155056.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230527155002.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230527154936.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230527154910.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230527144217.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230527130852.png",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
+    "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
+    "flutter_animations",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/18-designpatterns-quickview.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Intro.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/buttons_adapter_veliBacik.md",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230502101703.png",
+    "flutter-course-vandad/chapter-6/chapter-6-enum-classes-objects.md",
+    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/Fibonacci.md",
     "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/canConstruct.md",
     "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/camSum.md",
     "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/BestSum.md",
     "DesignpatternsAndAlgo/Images/Pasted image 20230207200546.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230207200718.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230207201017.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230207202430.png",
-    "DesignpatternsAndAlgo/Images/Screenshot 2023-02-06 at 4.49.43 PM.png"
+    "DesignpatternsAndAlgo/Images/Pasted image 20230207200718.png"
   ]
 }
