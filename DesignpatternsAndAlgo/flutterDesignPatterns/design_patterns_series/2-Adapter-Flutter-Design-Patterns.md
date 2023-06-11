@@ -1,3 +1,4 @@
+
 [source](https://kazlauskas.dev/flutter-design-patterns-2-adapter/)
 [Intro](https://kazlauskas.dev/flutter-design-patterns-0-introduction/)
 
@@ -387,3 +388,100 @@ class _ContactsSectionContent extends StatelessWidget {
 }
 ```
 
+
+**Final result**:
+https://kazlauskas.dev/assets/images/example-c13aa3ebfcfa2a5fe5385659e219e0dd.gif
+
+
+## Adapter-Good-Example-php[](https://stackoverflow.com/questions/46023431/difference-between-strategy-pattern-and-adapter)
+
+```php
+class DatabaseManager
+{
+   private Connection $connection;
+
+   public function connect(Connection $connection)
+   {
+      $this->connection = $connection->establish();
+   }
+}
+```
+```php
+class MysqlConnection implements Connection
+{
+    public function establish(){
+       // connect to mysql...
+    }
+}
+```
+Inside your repo you have the following code:
+
+```php
+class YourService
+{
+   public function connectDB()
+   {
+      $db = new DatabaseManager();
+      $db->connect(new MysqlConnection());
+   }
+}
+```
+It all works fine, however then you get the requirement to change the connection to SqlLiteConnection and add have to import a different package for using it. The imported file looks like this:
+
+```php
+class SqlLiteConnection
+{
+    public function prepareConnection(){
+       // first prepare the connection...
+       return $preparedConnection;
+    }
+
+    public function executeConnection($preparedConnection){
+       // then connect ...
+       $preparedConnection->execute();
+    }
+}
+```
+
+The interface (method names) of SqlLiteConnection is different to MysqlConnection, so you are having trouble using it:
+
+```php
+class YourService
+{
+   public function connectDB()
+   {
+      $db = new DatabaseManager();
+      $db->connect(new SqlLiteConnection()); // error! method `establish` does not exist in SqlLiteConnection.
+   }
+}
+```
+You are not able to modify the SqlLiteConnection package, so to get it to work you create an adapter:
+
+```php
+class SqlLiteAdapter implements Connection
+{
+   public function establish($sqlConnection)
+   {
+      $preparedConnection = $sqlConnection->prepareConnection();
+      $sqlConnection->executeConnection(preparedConnection);
+   }
+}
+
+```
+
+Now it works!
+
+```php
+class YourService
+{
+   public function connectDB()
+   {
+      $db = new DatabaseManager();
+      $db->connect(new SqlLiteAdapter(new SqlLiteConnection())); //works!
+   }
+}
+```
+
+As you can see the adapter was just used as an alias to map `establish` to the methods `prepareConnection` and `executeConnection`. This is the purpose of an adapter, it does not add functionality but just `adapts` the interface to your needs. Similar to a travel adapter that allows you to use a US plug in a EU socket.
+
+The strategy pattern on the other hand would have a similar implementation as above but you would not simply map some functions in the Adapter but would add your unique logic for each of your Strategies.
