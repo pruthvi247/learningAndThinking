@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "89cfcac9fed0feca",
+        "id": "b0288c3c873c0bd2",
         "type": "tabs",
         "children": [
           {
-            "id": "093ccefa5ac1a0f7",
+            "id": "4f37e9315b5395c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md",
+                "file": "js-learnings/nodejs-setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md",
+                "file": "js-learnings/nodejs-setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md",
+                "file": "js-learnings/nodejs-setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md"
+                "file": "js-learnings/nodejs-setup.md"
               }
             }
           }
@@ -155,11 +155,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "093ccefa5ac1a0f7",
+  "active": "4f37e9315b5395c8",
   "lastOpenFiles": [
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/3-Strategy-design-pattern.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md",
+    "js-learnings/4-multipage-websites.md",
+    "js-learnings/3-intermediate-HTML.md",
+    "js-learnings/2-Intro.md",
+    "js-learnings/nodejs-setup.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/4-Observer-design-pattern.md",
+    "js-learnings",
+    "devops/k8s",
+    "devops",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/1-Intro.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/3-Strategy-design-pattern.md",
     "DesignpatternsAndAlgo/Images/example-f81e527ee73e907ea9c1f6b66905730b.gif",
     "DesignpatternsAndAlgo/Images/Pasted image 20230611200959.png",
     "DesignpatternsAndAlgo/Images/Pasted image 20230611200859.png",
@@ -175,7 +183,7 @@
     "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
     "DesignpatternsAndAlgo/Images/Pasted image 20230527155323.png",
     "DesignpatternsAndAlgo/Images/Pasted image 20230527155227.png",
-    "flutter_animations",
+    "flutter-course-vandad/flutter_animations",
     "flutter-course-vandad/chapter-6/chapter-6-enum-classes-objects.md",
     "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/Fibonacci.md",
     "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/canConstruct.md",
