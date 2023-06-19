@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b0288c3c873c0bd2",
+        "id": "fa6d86114de662bf",
         "type": "tabs",
         "children": [
           {
-            "id": "4f37e9315b5395c8",
+            "id": "5e1c527b09aaaed8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js-learnings/nodejs-setup.md",
+                "file": "js-learnings/16-DOM-intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js-learnings/nodejs-setup.md",
+                "file": "js-learnings/16-DOM-intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "js-learnings/nodejs-setup.md",
+                "file": "js-learnings/16-DOM-intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "js-learnings/nodejs-setup.md"
+                "file": "js-learnings/16-DOM-intro.md"
               }
             }
           }
@@ -155,16 +155,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f37e9315b5395c8",
+  "active": "5e1c527b09aaaed8",
   "lastOpenFiles": [
-    "js-learnings/4-multipage-websites.md",
+    "js-learnings/14-Intro-to-javascript-es6.md",
+    "js-learnings/16-DOM-intro.md",
+    "js-learnings/11-Bootstrap.md",
+    "js-learnings/attachments/tindogsolution.css",
+    "js-learnings/attachments/tindog-solution.html",
+    "js-learnings/10-css-grid.md",
+    "js-learnings/attachments/Pasted image 20230618125615.png",
+    "js-learnings/9-Flexbox.md",
+    "js-learnings/attachments/58-pricing-table-solution.html",
+    "js-learnings/attachments/Pasted image 20230618114028.png",
+    "js-learnings/attachments/inline-block.html",
+    "js-learnings/attachments/html-table.html",
+    "js-learnings/attachments/goal.png",
+    "js-learnings/attachments/float.html",
+    "js-learnings/attachments/absolute-position.html",
+    "js-learnings/attachments/flex.html",
+    "js-learnings/attachments",
+    "DesignpatternsAndAlgo/Images/flex.html",
+    "js-learnings/8-Advanced-Css.md",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230617233827.png",
+    "js-learnings/6-cssProperties.md",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230617155159.png",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230617120633.png",
+    "js-learnings/5-css.md",
+    "js-learnings/nodejs-setup.md",
     "js-learnings/3-intermediate-HTML.md",
     "js-learnings/2-Intro.md",
-    "js-learnings/nodejs-setup.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/4-Observer-design-pattern.md",
-    "js-learnings",
-    "devops/k8s",
-    "devops",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/1-Intro.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/3-Strategy-design-pattern.md",
@@ -172,18 +192,11 @@
     "DesignpatternsAndAlgo/Images/Pasted image 20230611200959.png",
     "DesignpatternsAndAlgo/Images/Pasted image 20230611200859.png",
     "DesignpatternsAndAlgo/Images/Pasted image 20230611200831.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230611195141.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230611193812.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230611193415.png",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/buttons_adapter_veliBacik.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230204115732.png",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter 1.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/18-designpatterns-quickview.md",
     "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230527155323.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230527155227.png",
-    "flutter-course-vandad/flutter_animations",
     "flutter-course-vandad/chapter-6/chapter-6-enum-classes-objects.md",
     "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/Fibonacci.md",
     "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/canConstruct.md",

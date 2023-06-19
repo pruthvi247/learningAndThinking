@@ -1,7 +1,7 @@
 {
   "readableLineLength": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "DesignpatternsAndAlgo/Images",
+  "attachmentFolderPath": "./attachments",
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
