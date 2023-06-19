@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js-learnings/16-DOM-intro.md",
+                "file": "js-learnings/19-jquery.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js-learnings/16-DOM-intro.md",
+                "file": "js-learnings/19-jquery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "js-learnings/16-DOM-intro.md",
+                "file": "js-learnings/19-jquery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "js-learnings/16-DOM-intro.md"
+                "file": "js-learnings/19-jquery.md"
               }
             }
           }
@@ -157,8 +157,10 @@
   },
   "active": "5e1c527b09aaaed8",
   "lastOpenFiles": [
-    "js-learnings/14-Intro-to-javascript-es6.md",
+    "js-learnings/16-Advanced-DOM.md",
+    "js-learnings/19-jquery.md",
     "js-learnings/16-DOM-intro.md",
+    "js-learnings/14-Intro-to-javascript-es6.md",
     "js-learnings/11-Bootstrap.md",
     "js-learnings/attachments/tindogsolution.css",
     "js-learnings/attachments/tindog-solution.html",
@@ -200,7 +202,6 @@
     "flutter-course-vandad/chapter-6/chapter-6-enum-classes-objects.md",
     "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/Fibonacci.md",
     "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/canConstruct.md",
-    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/camSum.md",
-    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/BestSum.md"
+    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/camSum.md"
   ]
 }
