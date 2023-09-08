@@ -46,16 +46,16 @@ Adapter is structural pattern: **Adapter converts the given class' interface in
 [#External-source](https://learningdaily.dev/the-7-most-important-software-design-patterns-d60e546afb0e)
 1.  **Singleton**
 2.  **Factory Method**
-3. **Strategy**
-4. **Observer**
-5. **Builder**
-6. **Adapter**
-7. **State**
+3. **Builder**
+4. **Adapter**
+5. **Strategy**
+6. **Observer**
+8. **State**
 
 **Observer**
 This pattern is a one-to-many dependency between objects so that when one object changes state, all its dependents are notified. This is typically done by calling one of their methods.
 
- **Strategy**
+**Strategy**
 The strategy pattern allows grouping related algorithms under an abstraction, which allows switching out one algorithm or policy for another without modifying the client. Instead of directly implementing a single algorithm, the code receives runtime instructions specifying which of the group of algorithms to run.
 
 **Factory Method**
@@ -83,6 +83,11 @@ Similar to how if you travel abroad you need to carry a power adapter to be able
 
 Strategy pattern, on the other hand takes a group of algorithms, and makes them interchangeable (by extending from a common interface). So that whatever class that is going to use the strategy can easily interchange it with another strategy from the group.
 
-In other words, Adapter does not add behavior in any way, it just modifies the existing interface to allow some other class to access the existing functionality.
+In other words, Adapter does not add behaviour in any way, it just modifies the existing interface to allow some other class to access the existing functionality.
 
-Strategy pattern on the other hand encapsulates different behavior, and allows them to be switched at run time.
+Strategy pattern on the other hand encapsulates different behaviour, and allows them to be switched at run time.
+
+`Creational` : Deals with way of creating objects or families of objects
+`Structural` : Deals with ways of managing complex objects hierarchies
+`Behavioral` : Deals with ways of identifying and improving object messaging
+

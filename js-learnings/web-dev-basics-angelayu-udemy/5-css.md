@@ -86,7 +86,7 @@ To select an element with a specific id, write a hash (#) character, followed by
 <body>
 
 <h1 class="center">Red and center-aligned heading</h1>
-<p class="center">Red and center-aligned paragraph.</p> 
+<p class="Large">Red and Large center-aligned paragraph.</p> 
 
 </body>
 </html>
@@ -125,6 +125,68 @@ a[target="_top"] {
 </body>
 </html>
 ```
+
+
+### CSS [attribute~="value"] Selector
+
+The `[attribute~="value"]` selector is used to select elements with an attribute value containing a specified word.
+
+The following example selects all elements with a title attribute that contains a space-separated list of words, one of which is "flower":
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+[title~="flower"] {
+  border: 5px solid yellow;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS [attribute~="value"] Selector</h2>
+<p>All images with the title attribute containing the word "flower" get a yellow border.</p>
+
+<img src="klematis.jpg" title="klematis flower" width="150" height="113">
+<img src="img_flwr.gif" title="flower" width="224" height="162">
+<img src="img_tree.gif" title="tree" width="200" height="358">
+
+</body>
+</html>
+```
+
+### CSS [attribute|="value"] Selector
+
+The `[attribute|="value"]` selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-).
+
+**Note:** The value has to be a whole word, either alone, like class="top", or followed by a hyphen( - ), like class="top-text".
+
+### CSS [attribute^="value"] Selector
+
+The `[attribute^="value"]` selector is used to select elements with the specified attribute, whose value starts with the specified value.
+
+The following example selects all elements with a class attribute value that starts with "top":
+
+**Note:** The value does not have to be a whole word!
+
+### CSS [attribute$="value"] Selector
+
+The `[attribute$="value"]` selector is used to select elements whose attribute value ends with a specified value.
+
+The following example selects all elements with a class attribute value that ends with "test":
+
+**Note:** The value does not have to be a whole word!
+
+### CSS [attribute*="value"] Selector
+
+The `[attribute*="value"]` selector is used to select elements whose attribute value contains a specified value.
+
+The following example selects all elements with a class attribute value that contains "te":
+
+**Note:** The value does not have to be a whole word!
+
 
 ## Universal Selector
 The universal selector (*) selects all HTML elements on the page.

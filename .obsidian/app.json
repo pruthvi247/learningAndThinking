@@ -1,5 +1,5 @@
 {
-  "readableLineLength": false,
+  "readableLineLength": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./attachments",
   "pdfExportSettings": {

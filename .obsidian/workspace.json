@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fa6d86114de662bf",
+        "id": "cfda8b1b5423ae80",
         "type": "tabs",
         "children": [
           {
-            "id": "5e1c527b09aaaed8",
+            "id": "31af47db9a6e6631",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js-learnings/19-jquery.md",
+                "file": "flutter-course-vandad/generic/dart-generics.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"![[Pasted image 20230204115732.png]]\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 415.5
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js-learnings/19-jquery.md",
+                "file": "flutter-course-vandad/generic/dart-generics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "js-learnings/19-jquery.md",
+                "file": "flutter-course-vandad/generic/dart-generics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "js-learnings/19-jquery.md"
+                "file": "flutter-course-vandad/generic/dart-generics.md"
               }
             }
           }
@@ -155,53 +155,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e1c527b09aaaed8",
+  "active": "31af47db9a6e6631",
   "lastOpenFiles": [
-    "js-learnings/16-Advanced-DOM.md",
-    "js-learnings/19-jquery.md",
-    "js-learnings/16-DOM-intro.md",
-    "js-learnings/14-Intro-to-javascript-es6.md",
-    "js-learnings/11-Bootstrap.md",
+    "flutter-course-vandad/riverpod/vandad-riverpod.md",
+    "2023-08-11.md",
+    "DesignpatternsAndAlgo/Images/Pasted image 20230114143653.png",
+    "ML/Machine learining for every body.md",
+    "Pasted image 20230110114403.png.md",
+    "ML/logistic-regression.webp.md",
+    "ML/Machineleariningforeverybody.pdf",
+    "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
+    "js-learnings/vuejs-learnings/vue-js-traversyMedia/1-Basics.md",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/DataStructures.md",
+    "js-learnings/vuejs-learnings/vue-js-traversyMedia",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20230828112215.png",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20230828111215.png",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20230828111129.png",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20230828103137.png",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20230828103104.png",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20230828102408.png",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20230828102024.png",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20230828101804.png",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20230828092534.png",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments",
+    "js-learnings/web-dev-basics-angelayu-udemy/8-Advanced-Css.md",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc",
+    "js-learnings/web-dev-basics-angelayu-udemy/6-cssProperties.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/5-css.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/3-intermediate-HTML.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/2-Intro.md",
+    "js-learnings/nodejs-setup.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/9-Flexbox.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/1-Intro.md",
+    "js-learnings/web-dev-basics-angelayu-udemy",
+    "js-learnings/vuejs-learnings/udemy-vuejs-tutorial",
+    "js-learnings/vuejs-learnings",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/buttons_adapter_veliBacik.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/19-jquery.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/16-Advanced-DOM.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/16-DOM-intro.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/14-Intro-to-javascript-es6.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/11-Bootstrap.md",
     "js-learnings/attachments/tindogsolution.css",
     "js-learnings/attachments/tindog-solution.html",
-    "js-learnings/10-css-grid.md",
-    "js-learnings/attachments/Pasted image 20230618125615.png",
-    "js-learnings/9-Flexbox.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/10-css-grid.md",
     "js-learnings/attachments/58-pricing-table-solution.html",
-    "js-learnings/attachments/Pasted image 20230618114028.png",
-    "js-learnings/attachments/inline-block.html",
-    "js-learnings/attachments/html-table.html",
-    "js-learnings/attachments/goal.png",
-    "js-learnings/attachments/float.html",
-    "js-learnings/attachments/absolute-position.html",
-    "js-learnings/attachments/flex.html",
-    "js-learnings/attachments",
-    "DesignpatternsAndAlgo/Images/flex.html",
-    "js-learnings/8-Advanced-Css.md",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230617233827.png",
-    "js-learnings/6-cssProperties.md",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230617155159.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230617120633.png",
-    "js-learnings/5-css.md",
-    "js-learnings/nodejs-setup.md",
-    "js-learnings/3-intermediate-HTML.md",
-    "js-learnings/2-Intro.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/4-Observer-design-pattern.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/1-Intro.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/3-Strategy-design-pattern.md",
-    "DesignpatternsAndAlgo/Images/example-f81e527ee73e907ea9c1f6b66905730b.gif",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230611200959.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230611200859.png",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230611200831.png",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/buttons_adapter_veliBacik.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/Abstract-Factory-BuildingTheme.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/Flutter Design Patterns-Adapter 1.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/18-designpatterns-quickview.md",
-    "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
-    "flutter-course-vandad/chapter-6/chapter-6-enum-classes-objects.md",
-    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/Fibonacci.md",
-    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/canConstruct.md",
-    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/camSum.md"
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md"
   ]
 }

@@ -36,7 +36,7 @@
 ## Anchor Elements
 
 ``` html
-<tag attribute=value anotherattribute=value> this is anchor element </a>
+<tag attribute=value anotherattribute=value> this is anchor element </tag>
 ```
 ```html
 <a href="http://www.google.com" dragabble=true>this is a link</a>
