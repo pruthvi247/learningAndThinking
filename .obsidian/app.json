@@ -1,0 +1,12 @@
+{
+  "readableLineLength": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
