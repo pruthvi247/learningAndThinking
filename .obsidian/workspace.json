@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "fc1bd89aca6ae3bf",
+        "id": "dbba1d6d68a139f2",
         "type": "tabs",
         "children": [
           {
-            "id": "a67db5dcefc72740",
+            "id": "1e7ea9f5c48edb94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dart-learnings/resocoder-bootcamp/01-dart.md",
+                "file": "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dart-learnings/resocoder-bootcamp/01-dart.md",
+                "file": "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dart-learnings/resocoder-bootcamp/01-dart.md",
+                "file": "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dart-learnings/resocoder-bootcamp/01-dart.md"
+                "file": "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md"
               }
             }
           },
@@ -166,53 +167,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a67db5dcefc72740",
+  "active": "1e7ea9f5c48edb94",
   "lastOpenFiles": [
-    "dart-learnings/resocoder-bootcamp/attachments/Pasted image 20231023135038.png",
-    "dart-learnings/resocoder-bootcamp/attachments",
-    "dart-learnings/resocoder-bootcamp/01-dart.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105222250.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105222117.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105221343.png",
+    "js-learnings/web-dev-basics-angelayu-udemy/10-css-grid.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/9-Flexbox.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/().md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105191304.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105182341.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105182317.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105182238.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105181932.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105181309.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105180612.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments/Pasted image 20231105180343.png",
+    "js-learnings/HTML-CSS-Responsive-Udemy/2-css.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/19-jquery.md",
     "js-learnings/HTML-CSS-Responsive-Udemy/1-html.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/attachments",
+    "dart-learnings/resocoder-bootcamp/02-Flutter.md",
+    "dart-learnings/resocoder-bootcamp/01-dart.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/5-css.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/14-Intro-to-javascript-es6.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/16-Advanced-DOM.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/16-DOM-intro.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/8-Advanced-Css.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/6-cssProperties.md",
+    "dart-learnings/resocoder-bootcamp/attachments",
     "js-learnings/vuejs-learnings/vue-mdn-docs.md",
     "js-learnings/vuejs-learnings/01-Dart-Basics.md",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230527154936.png",
     "js-learnings/web-dev-basics-angelayu-udemy/3-intermediate-HTML.md",
     "js-learnings/web-dev-basics-angelayu-udemy/2-Intro.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/5-css.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/Clean-architecture.md",
     "js-learnings/HTML-CSS-Responsive-Udemy",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/attachments/Pasted image 20231012161619.png",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/attachments/Pasted image 20231012161211.png",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/attachments/Pasted image 20231012160627.png",
     "DesignpatternsAndAlgo/flutterDesignPatterns/attachments",
     "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
-    "DesignpatternsAndAlgo/Images/Pasted image 20230527130852.png",
     "ML/Machine-learining-for-every-body.md",
     "dart-learnings/resocoder-bootcamp",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/3-Strategy-design-pattern.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/1-Intro.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/18-designpatterns-quickview.md",
-    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/2-Adapter-Flutter-Design-Patterns.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/9-Flexbox.md",
-    "js-learnings/vuejs-learnings/vue-js-traversyMedia/1-Basics.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/10-css-grid.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/11-Bootstrap.md",
-    "ML/attachments/Pasted image 20230914100942.png",
-    "ML/attachments/Pasted image 20230914100920.png",
-    "ML/attachments/Pasted image 20230914100847.png",
-    "ML/attachments/Pasted image 20230914100830.png",
-    "ML/attachments/Pasted image 20230914100657.png",
-    "ML/Pasted image 20230110085123.png.md",
     "ML/attachments",
-    "ML/Pasted image 20230109180939.png.md",
     "ML/Machineleariningforeverybody.pdf",
-    "flutter-course-vandad/generic/dart-generics.md",
-    "flutter-course-vandad/riverpod/vandad-riverpod.md",
-    "2023-08-11.md",
-    "Pasted image 20230110114403.png.md",
-    "ML/logistic-regression.webp.md",
     "js-learnings/vuejs-learnings/vue-js-traversyMedia",
     "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments",
-    "DesignpatternsAndAlgo/Algo/AlgoMisc",
-    "js-learnings/web-dev-basics-angelayu-udemy"
+    "DesignpatternsAndAlgo/Algo/AlgoMisc"
   ]
 }

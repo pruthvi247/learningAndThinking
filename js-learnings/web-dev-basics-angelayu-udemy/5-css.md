@@ -194,3 +194,30 @@ The universal selector (*) selects all HTML elements on the page.
 * {  text-align: center;  
   color: blue;}
 ```
+## ::before Selector
+The `::before` selector inserts something before the content of each selected element(s).
+eg: Insert content before every < p > element's content, and style the inserted content:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p::before { 
+  content: "Read this -";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<h1>Demo of the ::before selector</h1>
+
+<p>My name is Donald</p>
+<p>I live in Ducksburg</p>
+
+</body>
+</html>
+```
+

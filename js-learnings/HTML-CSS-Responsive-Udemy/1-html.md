@@ -70,3 +70,36 @@ again?</p> </blockquote>
 
 <p>As A.A. Milne said, <q>Some people talk to animals. Not many listen though. That's the problem.</q></p>
 
+# \<head\>
+Contents of `head` element are not displayed in browser 
+
+# Semantic html
+In programming, **Semantics** refers to the _meaning_ of a piece of code
+In HTML, for example, the [h1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) element is a semantic element, which gives the text it wraps around the role (or meaning) of "a top level heading on your page."
+Non-semantic elements are used to create structure and presentation for web pages. They don't provide any information about the content of the web page. They are used to define sections of a web page and apply styles to the content.
+
+Not all elements are semantic for eg `<strong>` is not semantic element because it just bold the text 
+Semantic elements, such as ``<header>``, ``<nav>``, ``<section>``, and ``<footer>``, are used to define the structure of a web page and give meaning to the content. Non-semantic elements, such as ``<div>`` and ``<span>``, are used for layout and formatting purposes only.
+
+### List of new semantic elements
+
+The semantic elements added in HTML5 are:
+
+- `<article>`
+- `<aside>`
+- `<details>`
+- `<figcaption>`
+- `<figure>`
+- `<footer>`
+- `<header>`
+- `<main>`
+- `<mark>`
+- `<nav>`
+- `<section>`
+- `<summary>`
+- `<time>`
+Elements such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `<footer>` act more or less like `<div>` elements. They group other elements together into page sections. However where a `<div>` tag could contain any type of information, it is easy to identify what sort of information would go in a semantic `<header>` region.
+## HTML Entity List: 
+
+Some characters are reserved in HTML and they have special meaning when used in HTML document. For example, you cannot use the greater than and less than signs or angle brackets within your HTML text because the browser will treat them differently and will try to draw a meaning related to HTML tag.
+https://www.freeformatter.com/html-entities.html
