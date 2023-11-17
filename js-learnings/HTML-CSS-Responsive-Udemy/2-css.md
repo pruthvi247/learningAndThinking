@@ -75,6 +75,8 @@ widths do not apply
 👉 Box-model applies as showed
 👉 `display: inline-block`
 
+![[Pasted image 20231113104512.png]]
+
 # Positioning
 [free-code-camp-blog](https://www.freecodecamp.org/news/css-positioning-position-absolute-and-relative/)
 
@@ -175,5 +177,38 @@ There are four different combinators in CSS:
 |[_element+element_](https://www.w3schools.com/cssref/sel_element_pluss.asp)|div + p|Selects the first ``<p>`` element that are placed immediately after ``<div>`` elements|
 |[_element1~element2_](https://www.w3schools.com/cssref/sel_gen_sibling.asp)|p ~ ul|Selects every ``<ul>`` element that are preceded by a ``<p>`` element|
 
+## & (Ampersend)
+Source : https://www.reddit.com/r/css/comments/szntm4/what_this_does_in_css/?rdt=56511
 
+in SCSS or .LESS, the & and > together really just cascade, like you see in the other response. This
+```css
+p {
+    & > .bold-text {font-weight: bold;}
+    & > .white-text {color: #FFFFFF;}
+}
+```
+Becomes this:
+```css
+p > .bold-text {font-weight: bold;}
+p > .white-text {color: #FFFFFF;}
+```
+
+`& > * { margin: 105px; } I`
+Basically it says everything (* references all) directly under the parent container (& references the parent, > references directly under) should have a margin on all sides of 105px.
+
+In Sass and Less, the `&` is a reference to the parent selector
+
+A nested `&` selects the parent element in both SASS and LESS. It's not just for pseudo elements, it can be used with any kind of selector.
+```css
+h1 {
+    &.class {
+
+    }
+}
+```
+is equivalent to
+```css
+h1.class {
+}
+```
 
