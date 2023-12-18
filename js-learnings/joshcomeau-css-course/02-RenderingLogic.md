@@ -36,7 +36,7 @@ You can also use negative numbers to push the element in the opposite direction;
 
 You might be thinking "That's cool and all, but I can already push an element around with margin! What's the difference?"
 
-The big difference is that **`position` doesn't impact layout.** they don't get pulled along for the ride, as they do with margin.
+#ImportantPoint  The big difference is that **`position` doesn't impact layout.** they don't get pulled along for the ride, as they do with margin.
 When we push a relatively-positioned element around with top/left/right/bottom, the browser acts like the element is still in its original position. The displacement is purely cosmetic.
 ```css
 <style>
@@ -196,7 +196,7 @@ Here's a playground. See if you can figure out what it's doing:
 ```
 Hint: try resizing the “Result” pane!
 
-If we don't give our absolute element an anchor, **it sits in its default in-flow position**. I think of it as "inheriting" its default position from Flow layout.
+#ImportantPoint If we don't give our absolute element an anchor, **it sits in its default in-flow position**. I think of it as "inheriting" its default position from Flow layout.
 
 See this for yourself by removing `position: absolute`. Notice that the element sits more-or-less in the same spot!
 It has one other effect, though. It causes the absolute element to stack on top of the surrounding text. Which takes us to the second aspect of absolute positioning…
@@ -204,7 +204,7 @@ It has one other effect, though. It causes the absolute element to stack on top 
 
 This point is a bit less obvious, but maybe even more important. When we set something to be `position: absolute`, we **pull it out of flow.**
 
-When the browser is laying out elements, it effectively pretends that absolutely-positioned elements don't exist. They're “incorporeal”: you can stick your hand right through them, like a hologram or a ghost.
+#ImportantPoint the browser is laying out elements, it effectively pretends that absolutely-positioned elements don't exist. They're “incorporeal”: you can stick your hand right through them, like a hologram or a ghost.
 
 To drive the point home, here are 3 paragraphs that have been set to be absolutely positioned:
 ```css
@@ -393,7 +393,8 @@ If we add `position: relative` to the `.parent` class, it flips the child's 
   <div class="rebellious-teenager"></div>
 </div>
 ```
-Here's how the algorithm works: When deciding where to place an absolutely-positioned element, it crawls up through the tree, looking for a Positioned ancestor. The first one it finds will provide the containing block.
+#ImportantPoint Here's how the algorithm works: 
+When deciding where to place an absolutely-positioned element, it crawls up through the tree, looking for a Positioned ancestor. The first one it finds will provide the containing block.
 
 **What if it doesn't find one?** In many of the examples we've seen so far, there aren't any Positioned ancestors.
 
@@ -504,7 +505,7 @@ Check out what happens if we add some text to these boxes
   B
 </div>
 ```
-In Flow layout, background colors and borders are truly meant to be _in the background_. The content will float on top. That's why the letter `A` shows up on top of the pink box.
+#ImportantPoint In Flow layout, background colors and borders are truly meant to be _in the background_. The content will float on top. That's why the letter `A` shows up on top of the pink box.
 
 The truth is that Flow layout isn't really built with layering in mind. Most of the time, when we want to layer elements, we'll want to use positioned layout.
 
@@ -524,7 +525,7 @@ Check out what happens if we add relative positioning to the silver box:
 </div>
 ```
 ![[Pasted image 20231213114051.png]]
-As a general rule, **positioned elements will always render on top of non-positioned ones**. We can think of it as a two-stage process: first, all of the non-positioned elements are rendered (everything using Flow, Flexbox, Grid…). Next, all of the positioned elements are rendered on top (relative, absolute, fixed, sticky).
+#ImportantPoint As a general rule, **positioned elements will always render on top of non-positioned ones**. We can think of it as a two-stage process: first, all of the non-positioned elements are rendered (everything using Flow, Flexbox, Grid…). Next, all of the positioned elements are rendered on top (relative, absolute, fixed, sticky).
 
 What if we set _both_ elements to use relative positioning? In that case, the DOM order wins
 To summarize:
@@ -671,7 +672,7 @@ Our tooltip shows up underneath our `<header>` because 1.999999 is a lower ver
 
 ### Creating new contexts
 
-In the video above, we saw how we can create a stacking context by combining a non-static position with a `z-index`. This isn't the only way, however!
+#ImportantPoint In the video above, we saw how we can create a stacking context by combining a non-static position with a `z-index`. This isn't the only way, however!
 
 Here are some other declarations that create a new stacking context:
 - Setting `opacity` to a value less than `1`
@@ -775,7 +776,7 @@ By default, HTML elements will be stacked according to their DOM order. Without 
 
 We can lift `header` to the front by giving it a z-index, but not without flattening all of its children. This mechanism is what led to the bug we discussed earlier.
 
-We shouldn't think of `z-index` purely as a way to change an element's order. We should _also_ think of it as a way to form a group around that element's children. z-index won't work unless a group is formed.
+#ImportantPoint We shouldn't think of `z-index` purely as a way to change an element's order. We should _also_ think of it as a way to form a group around that element's children. z-index won't work unless a group is formed.
 
 **Believe it or not, this is a good thing**
 
@@ -1017,7 +1018,7 @@ Here's a wider view of the HTML/CSS responsible for this bug:
 ```
 The two side cards have a `z-index` of 1, so they slip behind the header. But the primary card matches the header's `z-index` of 2. And since the primary card comes later in the DOM order, it shows up on top.
 
-In order to fix this, we need to **create an isolated stacking context**. If we can bundle those 3 cards into their own context, we can guarantee that they all slip behind the header.
+#ImportantPoint In order to fix this, we need to **create an isolated stacking context**. If we can bundle those 3 cards into their own context, we can guarantee that they all slip behind the header.
 
 One way to do this is to give the `.pricing` wrapper a `position` and `z-index`:
 ```css
@@ -1041,7 +1042,7 @@ Instead of adding `position: relative; z-index: 1;` to our `.pricing` select
 isolation: isolate;
 }
 ```
-The `isolation` property does precisely 1 thing: creates a stacking context.
+#ImportantPoint The `isolation` property does precisely 1 thing: creates a stacking context.
 
 It has the same effect of flattening all of the child elements, but it does so without requiring that we also set a `z-index` on the parent. It's the lightest-touch way to create a stacking context.
 
@@ -1179,7 +1180,7 @@ body {
 
 # Fixed Positioning
 
-Fixed position is a close cousin to absolute positioning. The main difference is that it's even more rebellious: it can _only_ be contained by the viewport. It doesn't care about containing blocks.
+#ImportantPoint Fixed position is a close cousin to absolute positioning. The main difference is that it's even more rebellious: it can _only_ be contained by the viewport. It doesn't care about containing blocks.
 
 The main advantage of fixed-position elements is that they're immune to scrolling.
 
@@ -1288,7 +1289,7 @@ This is mostly a curiosity, but it can be useful in certain situations, when we 
 
 Certain CSS properties, when applied to an ancestor, will mess with fixed positioning.
 
-For example, if an ancestor (parent, grandparent, …) uses the `transform` property, it stops being locked to the viewport:
+#ImportantPoint For example, if an ancestor (parent, grandparent, …) uses the `transform` property, it stops being locked to the viewport:
 ```css
 <style>
   .container {
@@ -1563,7 +1564,7 @@ In my source code, I added a detailed comment explaining exactly why I'm using t
   overflow: hidden;
 }
 ```
-Adding detailed comments when using `overflow: hidden` is absolutely critical. Otherwise, you'll never remember why you set the property. If you refactor this property away, it won't be immediately obvious that you've broken something; it only causes problems on mobile, and this is primarily a desktop application.
+#ImportantPoint Adding detailed comments when using `overflow: hidden` is absolutely critical. Otherwise, you'll never remember why you set the property. If you refactor this property away, it won't be immediately obvious that you've broken something; it only causes problems on mobile, and this is primarily a desktop application.
 
 **My rule of thumb:** Always add a comment when employing this declaration. Future-you will thank you.
 # Scroll Containers
@@ -1630,7 +1631,7 @@ Hm, it's as if we set `overflow-y: scroll`. What's going on here?
 
 I like to think of scroll containers like the _TARDIS_ from the British sci-fi show _Dr. Who_: It's a regular-sized telephone ship from the outside, but a large spaceship inside, somehow defying physics.
 
-When we set the `overflow` property to `scroll`, `hidden`, or `auto`, we create one of these magical "bigger inside than outside" spaceships.
+#ImportantPoint When we set the `overflow` property to `scroll`, `hidden`, or `auto`, we create one of these magical "bigger inside than outside" spaceships.
 
 For example, this `.wrapper` element is a 150px-tall box, and yet it somehow contains a much larger image, as if it was a portal to some alternative dimension:
 ```css
@@ -1662,7 +1663,7 @@ When a child is placed in a scroll container, it _guarantees_ that the child w
 
 But wait… Why would `hidden` create a scroll container? It makes sense that `scroll` and `auto` would create a scroll container, but we can't scroll within an `overflow: hidden` element!
 
-**Here's the trick:** `overflow: hidden` is identical to `overflow: scroll`, _but with the scrollbars removed._
+#ImportantPoint **Here's the trick:** `overflow: hidden` is identical to `overflow: scroll`, _but with the scrollbars removed._
 I'm not sure why it was implemented this way, but an element with `overflow: hidden` is literally a scroll container without scrollbars.
 
 I can prove it. Try to tab through the links within this scroll container:
@@ -1689,7 +1690,7 @@ I can prove it. Try to tab through the links within this scroll container:
 As you tab through the links, the container should automatically scroll
 There may not be any visible scrollbars, but it's definitely still a scroll container. We can force it to scroll by tabbing through interactive elements. A crafty user might even write some JS that can programmatically scroll this container!
 
-So, to summarize:
+So, to summarize: #ImportantPoint 
 
 - When we use `overflow: scroll`, `overflow: auto`, or `overflow: hidden`, we create a scroll container. This is true whether we set the property on the X axis, the Y axis, or both.
 - A scroll container is like a portal to a pocket dimension. When an element is contained by a scroll container, it's guaranteed to be stuck inside. It will never overflow beyond the 4 corners of the scroll container.
@@ -1697,7 +1698,7 @@ So, to summarize:
 But, don't give up hope! Modern CSS has provided a **shiny new way** to solve this problem.
 ## Overflow: clip
 
-Over the past few months, a new `overflow` value has been landing in browsers:
+#ImportantPoint Over the past few months, a new `overflow` value has been landing in browsers:
 `overflow: clip` works quite a bit like `overflow: hidden`, _but it doesn't create a scroll container_. Essentially, it acts the way most developers think `overflow: hidden` _should_ work. It trims off any overflow, in one or both directions.
 
 **We can solve our problem using this property:**
@@ -1927,7 +1928,7 @@ Images are inline by default. Like words in a paragraph, they line-wrap when the
   />
 </div>
 ```
-How can we instruct the container to _not_ linewrap, and instead to leave the content in a single line? The `white-space` property has got our back:
+ How can we instruct the container to _not_ linewrap, and instead to leave the content in a single line? The `white-space` property has got our back:
 ```css
 <style>
   .wrapper {
@@ -1942,7 +1943,7 @@ How can we instruct the container to _not_ linewrap, and instead to leave the 
   }
 </style>
 ```
-`white-space` is a property that lets us tweak how words and other inline/inline-block elements wrap. By setting it to `nowrap`, we instruct the container to never break lines. That, in tandem with `overflow: auto`, allows us to achieve a horizontally-scrollable element.
+#ImportantPoint `white-space` is a property that lets us tweak how words and other inline/inline-block elements wrap. By setting it to `nowrap`, we instruct the container to never break lines. That, in tandem with `overflow: auto`, allows us to achieve a horizontally-scrollable element.
 
 We'll learn more about the `white-space` property in Module 6, when we talk about [text wrapping](https://courses.joshwcomeau.com/css-for-js/06-typography-and-media/03-text-overflow).
 
@@ -1970,6 +1971,14 @@ This dynamic plays a role when it comes to overflow!
 Take a look at the following playground, and see if you can figure out why the pink box is peeking outside its parent, despite the `overflow: hidden`:
 ```css
 <style>
+.wrapper {
+  position: relative;
+  overflow: auto;
+}
+.box {
+  /* Change me to 'fixed': */
+  position: fixed;
+}
   .wrapper {
     overflow: hidden;
     width: 150px;
@@ -1977,7 +1986,6 @@ Take a look at the following playground, and see if you can figure out why the p
     border: 3px solid;
   }
   .box {
-    position: absolute;
     top: 24px;
     left: 24px;
     background: deeppink;
@@ -2004,7 +2012,7 @@ We can fix this by adding `position: relative` to the parent:
   border: 3px solid;
 }
 ```
-Absolutely-positioned elements act just like static-positioned elements when it comes to overflow. If the parent sets `overflow: auto`, _as long as that parent is the containing block_, it will allow that child to be scrolled into view:
+#ImportantPoint Absolutely-positioned elements act just like static-positioned elements when it comes to overflow. If the parent sets `overflow: auto`, _as long as that parent is the containing block_, it will allow that child to be scrolled into view:
 ```css
 .wrapper {
   position: relative;
@@ -2087,14 +2095,29 @@ Take a minute and think about it. Then, try it out, and see if it does what you 
 
 ```css
 <style>
-.wrapper {
-  position: relative;
-  overflow: auto;
-}
-.box {
-  /* Change me to 'fixed': */
-  position: absolute;
-}
+  .wrapper {
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+  }
+
+  .box {
+    top: 200px;
+    left: 24px;
+    background: deeppink;
+    width: 150px;
+    height: 200px;
+  }
+
+  .wrapper {
+    position: relative;
+    overflow: auto;
+  }
+
+  .box {
+    /* Change me to 'fixed': */
+    position: absolute;
+  }
 </style>
 
 <div class="wrapper">
@@ -2103,7 +2126,7 @@ Take a minute and think about it. Then, try it out, and see if it does what you 
 ```
 This result surprised me at first. Did it surprise you?
 
-When we switch to `position: fixed`, the parent's scrollbars disappear, and the element pops into view, as if `overflow` was set to its default value, `visible`. Why is that?
+#ImportantPoint When we switch to `position: fixed`, the parent's scrollbars disappear, and the element pops into view, as if `overflow` was set to its default value, `visible`. Why is that?
 
 In order for a child to "trigger" the overflow, it needs to be contained by it. Setting `position: relative` is enough to contain an absolute child, but _fixed_ children are only ever contained by the “initial containing block”, a box that exists outside the DOM structure.
 
@@ -2142,7 +2165,7 @@ In addition to setting `position: sticky`, you also need to pick at least one e
 There's a lot of subtlety with `position: sticky`. Let's go through some of the details.
 ## Stays in their box
 
-An often-overlooked aspect of `position: sticky` is that the element will never follow the scroll outside of its parent container. Sticky elements only stick while their container is in view.
+#ImportantPoint An often-overlooked aspect of `position: sticky` is that the element will never follow the scroll outside of its parent container. Sticky elements only stick while their container is in view.
 
 In the following example, scroll all the way to the bottom, and note that the pink circle never leaves the black rectangle:
 ```css
@@ -2267,9 +2290,9 @@ This does feel sorta weird to me. Typically, we imagine directions like `top` 
 In many cases, we'll want to use `top: 0px` so that the element sticks the moment the user scrolls to that element, but we can choose different values depending on the effect we're going for.
 ## Not incorporeal
 
-Earlier, we saw how absolute and fixed elements are “incorporeal”—they don't block out any space, like holograms. If they have any static or relative siblings, those siblings will be positioned as if the absolute/fixed elements don't exist.
+#ImportantPoint Earlier, we saw how absolute and fixed elements are “incorporeal”—they don't block out any space, like holograms. If they have any static or relative siblings, those siblings will be positioned as if the absolute/fixed elements don't exist.
 
-Sticky elements are like relative or static elements in this regard; they're laid out in-flow. They take up real space, and that space remains taken even when the element is stuck to an edge during scrolling.
+#ImportantPoint Sticky elements are like relative or static elements in this regard; they're laid out in-flow. They take up real space, and that space remains taken even when the element is stuck to an edge during scrolling.
 
 Toggle the `.main.box` element below between fixed and sticky, and **notice how its siblings and parent container change:**
 ```css
@@ -2486,7 +2509,7 @@ You can copy/paste this snippet into the browser console, replacing `selector`�
 **So how do we fix it, once we've found the culprit?**
 
 - If the culprit uses `overflow: hidden`, we can switch to `overflow: clip`. Because `overflow: clip` doesn't create a scroll container, it doesn't have this problem!
-    
+
 - If the culprit uses `auto` or `scroll`, you _might_ be able to remove this property, or push it lower in the DOM. This is a tricky problem, often without a quick solution. We saw an example of this sort of restructuring in the [solution to the last exercise](https://courses.joshwcomeau.com/css-for-js/02-rendering-logic-2/16-sticky-exercises#two-fix-the-bug).
     
 
