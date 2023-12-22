@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "6a16ad563e780b27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "js-learnings/joshcomeau-css-course/08-animation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "17d081ff470eca0e",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.50390243530273
+    "width": 304.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -105,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js-learnings/joshcomeau-css-course/06-typography-and-images.md",
+                "file": "js-learnings/joshcomeau-css-course/08-animation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "js-learnings/joshcomeau-css-course/06-typography-and-images.md",
+                "file": "js-learnings/joshcomeau-css-course/08-animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "js-learnings/joshcomeau-css-course/06-typography-and-images.md"
+                "file": "js-learnings/joshcomeau-css-course/08-animation.md"
               }
             }
           },
@@ -177,22 +191,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb187e0b282de60b",
+  "active": "6a16ad563e780b27",
   "lastOpenFiles": [
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/03-styled-components.md",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221230706.png",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221225733.png",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221194227.png",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221194119.png",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221194051.png",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221193901.png",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221190538.png",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221142707.png",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221114001.png",
     "js-learnings/joshcomeau-css-course/06-typography-and-images.md",
+    "js-learnings/joshcomeau-css-course/08-animation.md",
+    "js-learnings/joshcomeau-css-course/attachments/Screenshot 2023-12-20 at 9.10.04 AM.png",
+    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231219113703.png",
+    "js-learnings/nodejs-setup.md",
+    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/03-styled-components.md",
     "js-learnings/joshcomeau-css-course/05-Responsive-Behavioural-css.md",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231218093047.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231218071541.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231218065545.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231217225612.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231217225546.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231217213917.png",
     "js-learnings/joshcomeau-css-course/00-Treasure-Trove/05-Generative-art-tools.md",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231217192949.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231217190334.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231217184935.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231217183947.png",
     "js-learnings/joshcomeau-css-course/04-Flex-box.md",
     "js-learnings/joshcomeau-css-course/03-Modern-component-Architecture.md",
     "js-learnings/joshcomeau-css-course/00-Treasure-Trove/04-Global-Styles.md",
@@ -218,9 +235,6 @@
     "js-learnings/web-dev-basics-angelayu-udemy/2-Intro.md",
     "js-learnings/web-dev-basics-angelayu-udemy/attachments",
     "js-learnings/web-dev-basics-angelayu-udemy/3-intermediate-HTML.md",
-    "js-learnings/vuejs-learnings/01-Dart-Basics.md",
-    "dart-learnings/resocoder-bootcamp/03-Architecture.md",
-    "flutter-course-vandad/riverpod/vandad-riverpod.md",
     "js-learnings/responsive-css-freecodecamp",
     "js-learnings/HTML-CSS-Responsive-Udemy/6-omnifood-project",
     "js-learnings/HTML-CSS-Responsive-Udemy/0-all-design-guidelines.pdf",
