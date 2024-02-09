@@ -3,5 +3,6 @@
   "baseFontSize": 23,
   "enabledCssSnippets": [
     "obsidian-css"
-  ]
+  ],
+  "theme": "obsidian"
 }

@@ -274,6 +274,8 @@ video : https://player.vimeo.com/video/612741161
   Lookatm!Iamaverylongsentencewithfartoomanywordsandletterstofitonasinglelineintheavailablespace.
 </div>
 ```
+
+Absolute elements adhere to constraints given, above example it considers `top,left,right` contraints, contents inside `abs` will over flow. box will be remained constant
 # Centering Trick
 
 So we've seen how we can position an element by specifying a distance from the edge, like this:
@@ -364,6 +366,7 @@ Here's an example of an absolute element ignoring its parent:
   <div class="rebellious-teenager"></div>
 </div>
 ```
+#ImportantPoint 
 Here's what's going on: **Absolute elements can only be contained by _other_ elements using Positioned layout.** This is a really important point, and a really common source of confusion.
 
 If we add `position: relative` to the `.parent` class, it flips the child's containing block. It will now be contained by the parent:
@@ -559,6 +562,7 @@ If we want the layered order to be different from the DOM order, we can use the�
   B
 </div>
 ```
+#ImportantPoint 
 `z-index` only works with positioned elements. It will have no effect on an element being rendered in Flow layout.
 The `z` in `z-index` refers to the `z` axis:
 - `x` is left/right

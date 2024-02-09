@@ -4,47 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4c5137f39963745d",
+        "id": "415e586570b4062d",
         "type": "tabs",
         "children": [
           {
-            "id": "fb187e0b282de60b",
+            "id": "94c4168a1976ac36",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "js-learnings/joshcomeau-css-course/06-typography-and-images.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a16ad563e780b27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "js-learnings/joshcomeau-css-course/08-animation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17d081ff470eca0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "js-learnings/joshcomeau-css-course/00-Treasure-Trove/04-Global-Styles.md",
-                "mode": "source",
-                "source": false
+                "file": "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.50390243530273,
-    "collapsed": true
+    "width": 304.50390243530273
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -119,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js-learnings/joshcomeau-css-course/08-animation.md",
+                "file": "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "js-learnings/joshcomeau-css-course/08-animation.md",
+                "file": "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "js-learnings/joshcomeau-css-course/08-animation.md"
+                "file": "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf"
               }
             }
           },
@@ -169,7 +141,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -191,53 +165,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a16ad563e780b27",
+  "active": "94c4168a1976ac36",
   "lastOpenFiles": [
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221230706.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221225733.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221194227.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221194119.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221194051.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221193901.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221190538.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221142707.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231221114001.png",
-    "js-learnings/joshcomeau-css-course/06-typography-and-images.md",
-    "js-learnings/joshcomeau-css-course/08-animation.md",
-    "js-learnings/joshcomeau-css-course/attachments/Screenshot 2023-12-20 at 9.10.04 AM.png",
-    "js-learnings/joshcomeau-css-course/attachments/Pasted image 20231219113703.png",
-    "js-learnings/nodejs-setup.md",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/03-styled-components.md",
-    "js-learnings/joshcomeau-css-course/05-Responsive-Behavioural-css.md",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/05-Generative-art-tools.md",
-    "js-learnings/joshcomeau-css-course/04-Flex-box.md",
-    "js-learnings/joshcomeau-css-course/03-Modern-component-Architecture.md",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/04-Global-Styles.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/6-cssProperties.md",
-    "js-learnings/joshcomeau-css-course/02-RenderingLogic.md",
-    "js-learnings/joshcomeau-css-course/01-RenderingLogic.md",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/01-Global Styles.md",
-    "js-learnings/joshcomeau-css-course/02-RenderingLogic",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/02-Typography.md",
-    "js-learnings/joshcomeau-css-course/00-Fundamentals.md",
-    "js-learnings/HTML-CSS-Responsive-Udemy/5-components-layoutPatterns.md",
-    "js-learnings/HTML-CSS-Responsive-Udemy/4-web-design-rules.md",
-    "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md",
-    "js-learnings/HTML-CSS-Responsive-Udemy/2-css.md",
-    "js-learnings/responsive-css-freecodecamp/01-css.md",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove",
+    "ML/freecodecamp/llm-from-scratch-python.md",
+    "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf",
+    "ML/freecodecamp/ml-foreverybody",
+    "ML/misc/gentle-introduction-to-large-language-models-without-the-hype.md",
+    "ML/freecodecamp/ml-foreverybody/Machine-learining-for-every-body.md",
+    "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209101655.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209100751.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209100328.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209094030.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209093704.png",
+    "ML/freecodecamp/CS50-AI-cource/Pasted image 20240209093437.png.md",
+    "ML/freecodecamp/CS50-AI-cource/Pasted image 20240208082056.png.md",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209093322.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240208081557.png",
+    "ML/attachments/Pasted image 20230914100830.png",
+    "ML/attachments/Pasted image 20230914100920.png",
+    "ML/attachments/Pasted image 20230914100942.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments",
+    "js-learnings/web-dev-basics-angelayu-udemy/10-css-grid.md",
+    "ML/misc",
+    "ML/freecodecamp/CS50-AI-cource",
+    "js-learnings/web-dev-basics-angelayu-udemy/9-Flexbox.md",
     "js-learnings/web-dev-basics-angelayu-udemy/8-Advanced-Css.md",
-    "js-learnings/joshcomeau-css-course/attachments",
+    "js-learnings/web-dev-basics-angelayu-udemy/14-Intro-to-javascript-es6.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/11-Bootstrap.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/4-web-design-rules.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/5-components-layoutPatterns.md",
+    "ML/freecodecamp",
+    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/04-Global-Styles.md",
     "js-learnings/web-dev-basics-angelayu-udemy/100-other-topics.md",
-    "js-learnings/joshcomeau-css-course",
-    "js-learnings/web-dev-basics-angelayu-udemy/other-sources",
+    "js-learnings/joshcomeau-css-course/02-RenderingLogic.md",
     "js-learnings/web-dev-basics-angelayu-udemy/5-css.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/2-Intro.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/attachments",
-    "js-learnings/web-dev-basics-angelayu-udemy/3-intermediate-HTML.md",
-    "js-learnings/responsive-css-freecodecamp",
-    "js-learnings/HTML-CSS-Responsive-Udemy/6-omnifood-project",
-    "js-learnings/HTML-CSS-Responsive-Udemy/0-all-design-guidelines.pdf",
-    "js-learnings/HTML-CSS-Responsive-Udemy/0-theory-lectures-v2-SMALLER.pdf"
+    "js-learnings/web-dev-basics-angelayu-udemy/6-cssProperties.md",
+    "js-learnings/joshcomeau-css-course/08-animation.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/2-css.md",
+    "js-learnings/joshcomeau-css-course/01-RenderingLogic.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md",
+    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/01-Global Styles.md",
+    "js-learnings/joshcomeau-css-course/00-Fundamentals.md",
+    "js-learnings/joshcomeau-css-course/04-Flex-box.md",
+    "js-learnings/joshcomeau-css-course/02-RenderingLogic",
+    "js-learnings/joshcomeau-css-course/00-Treasure-Trove",
+    "js-learnings/joshcomeau-css-course/attachments",
+    "js-learnings/joshcomeau-css-course"
   ]
 }

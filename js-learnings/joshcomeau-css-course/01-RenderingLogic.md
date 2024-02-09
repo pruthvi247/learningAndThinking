@@ -883,7 +883,7 @@ Flow layout is the default layout mode. Everything we've seen so far has used Fl
 
 I like to think of Flow layout as the “Microsoft Word” layout algorithm. It's intended to be used for document type layouts.
 
-There are two main element types in Flow layout:
+#ImportantPoint There are two main element types in Flow layout:
 
 - **Block elements:** things like headings, paragraphs, footers, asides. The chunks of content that make up a page.
 - **Inline elements:** things like links, or a string of bold text. Generally, inline elements are meant to highlight bits of text, or elements within a block container.
@@ -912,7 +912,7 @@ height: 2em;
 You can picture inline elements as go-with-the-flow-type folks. They don't want to inconvenience anyone by pushing any boundaries. They're like polite dinner-party guests who sit exactly where they're assigned.
 
 You _can_ shift things in the inline direction with `margin-left` and `margin-right`, since that pushes it around in the _inline_ direction, but you can't give it a `width` or `height`. When it comes to layout, an inline element is where it is, and there's not much we can do about it.
-
+#ImportantPoint 
 >**Replaced elements(info)**
 >
 >There's an exception to this rule: _replaced elements_.
@@ -1038,6 +1038,7 @@ It's worth noting that it's still considered "one shape". If we add a border, we
 **I like to think of it like a sushi roll.** We have one long strip of text, and it's chopped up into individual bite-sized lines before being presented.
 
 ## The deal with inline-block
+#ImportantPoint 
 One of the most confusing things about Flow layout is the Frankenstein `display: inline-block` value. Honestly, it took a few tries before I truly understood what it was / how it worked.
 **Here's how I've grown to think about it:** An `inline-block` element is a block-level element that can be placed in an inline context. You know the expression _“a wolf in sheep's clothing”_? We can think of `inline-block` as _“a block in inline's clothing”_.
 
@@ -1107,6 +1108,7 @@ In the following playground, **try toggling the `width: 100%` declaration in 
 ```
 When we enable `width: 100%`, we cause the heading to pop outside of our frame. This happens because of the margin.
 
+#ImportantPoint 
 When we use percentage-based widths, those percentages are **based on the parent element's content space**. If the `body` tag makes 400px of space available, any child with 100% width will become 400px wide, regardless of any other circumstances.
 
 Block elements have a default `width` value of `auto`, not `100%`. `width: auto` works very similar to `margin: auto`; it's a hungry value that will grow as much as it's able to, but no more. In the case above, our `h1` will grow to consume (100% - 32px), since there is 16px of margin on either side.
