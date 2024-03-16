@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "415e586570b4062d",
+        "id": "10248f68e9a65810",
         "type": "tabs",
         "children": [
           {
-            "id": "94c4168a1976ac36",
+            "id": "9d6b9e4e04813f30",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf"
+                "file": "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.50390243530273
+    "width": 304.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -91,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf",
+                "file": "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf",
+                "file": "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf"
+                "file": "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md"
               }
             }
           },
@@ -165,26 +168,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94c4168a1976ac36",
+  "active": "9d6b9e4e04813f30",
   "lastOpenFiles": [
-    "ML/freecodecamp/llm-from-scratch-python.md",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095919.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095821.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095616.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095331.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095207.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095148.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316094621.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316094249.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316094035.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316093304.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316091359.png",
     "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf",
+    "ML/freecodecamp/llm-from-scratch-python.md",
     "ML/freecodecamp/ml-foreverybody",
     "ML/misc/gentle-introduction-to-large-language-models-without-the-hype.md",
     "ML/freecodecamp/ml-foreverybody/Machine-learining-for-every-body.md",
     "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209101655.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209100751.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209100328.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209094030.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209093704.png",
     "ML/freecodecamp/CS50-AI-cource/Pasted image 20240209093437.png.md",
     "ML/freecodecamp/CS50-AI-cource/Pasted image 20240208082056.png.md",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240209093322.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240208081557.png",
-    "ML/attachments/Pasted image 20230914100830.png",
-    "ML/attachments/Pasted image 20230914100920.png",
-    "ML/attachments/Pasted image 20230914100942.png",
     "ML/freecodecamp/CS50-AI-cource/attachments",
     "js-learnings/web-dev-basics-angelayu-udemy/10-css-grid.md",
     "ML/misc",

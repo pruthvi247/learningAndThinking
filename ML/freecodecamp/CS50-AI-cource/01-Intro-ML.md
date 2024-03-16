@@ -16,7 +16,7 @@ The set of all states reachable from the initial state by any sequence of action
 Above screen shot is usually represented as graph like below
 ![[Pasted image 20240208082715.png]]
 **Goal test**:
-Way to determine whether a given state is a goal state (end)
+Way to determine whether a given state is a goal state (end state)
 
 **Path cost**:
 Numerical cost associated with a given path
@@ -67,13 +67,16 @@ Search strategy that uses problem specific knowledge to find solutions more effi
 
 ## **Greedy best-first search (gbfs)**
 Search algorithm that expands the node that is closest to goal, as estimated by a heuristic function h(<sub>n</sub>)
+**Heuristic Function**
+A heuristic function (algorithm) or simply a heuristic is a shortcut to solving a problem when there are no exact solutions for it or the time to obtain the solution is too long.
+
 ![[Pasted image 20240209081814.png]]
 ![[Pasted image 20240209081954.png]]
 ![[Pasted image 20240209082201.png]]
 Heuristic function also fails in certain conditions, like below
 ![[Pasted image 20240209082356.png]]
 ## A* search
-Search algorithm that expands nodd withlowest value of g(n) + h(n)
+Search algorithm that expands node withl owest value of g(n) + h(n)
 g(n) = cost to reach node
 h(n) = Estimated cost to goal
 ![[Pasted image 20240209083112.png]]
@@ -90,14 +93,14 @@ eg: tic-tac-toe, chess
 #### Game
 - S<sub>o</sub> : initial state
 - Player (s) : returns which player to move in state _s_
-- Actions (s) : returns legal moves in state _s_
-- Result (s, a) : returns state after action _a_ taken in state _s_
-- Terminal (s) : checks if state _s_ is a terminal state
-- Utility (s) : final numerical value for terminal state _s_
 ![[Pasted image 20240209092557.png]]
+- Actions (s) : returns legal moves in state _s_
 ![[Pasted image 20240209092646.png]]
+- Result (s, a) : returns state after action _a_ taken in state _s_
 ![[Pasted image 20240209092719.png]]
+- Terminal (s) : checks if state _s_ is a terminal state
 ![[Pasted image 20240209092802.png]]
+- Utility (s) : final numerical value for terminal state _s_
 ![[Pasted image 20240209092833.png]]
 ![[Pasted image 20240209093322.png]]
 ![[Pasted image 20240209093704.png]]
@@ -154,6 +157,141 @@ Function that estimates the expected utility of the game from a given state
 >
 It's hard to say what depth you need to reach to get reasonable performance, because it depends on details of your game, your heuristic function and your opponent. If your heuristic function is perfect, you only need to look at the next layer. If it's always bad, you're screwed unless you can search to the end of the tree. Presumably it will get better as you get closer to the end of the tree, and I imagine that if you have a high branching factor, going a level deeper is more valuable than with a low branching factor, but it's difficult to say.
 
+**Knowledge-based agents**
+Agents that reason by operating on internal representations of knowledge
+**Propositional logic**
+Propositional symbols:
+P,Q,R
+**Entailment**
+`⍺ |=ß`
+In every model in which sentence ⍺ is true, sentence ß is also true
+**Inference**
+The process of deriving new sentences from old ones
 
-`time : 1hr51min`
+P: It is a tuesday
+Q: It is raining
+R: Harry will go for a run
+
+**Model checking**
+- To Determin if KB|=⍺ (kb = knowledge base)
+	- Enumerate all possible models
+	- If every model where KB is true, ⍺ is true, then KB entails ⍺
+	- Otherwise, KB does not entail ⍺
+![[Pasted image 20240315222337.png]]
+### Inference Rules
+**Modus Penens** Rule
+![[Pasted image 20240316084751.png]]
+![[Pasted image 20240316084820.png]]
+**And Elimination** Rule
+![[Pasted image 20240316085239.png]]
+![[Pasted image 20240316085336.png]]
+**Double Negation  Elimination** Rule
+![[Pasted image 20240316085429.png]]
+![[Pasted image 20240316085443.png]]
+**Implication Elimination** Rule
+![[Pasted image 20240316085622.png]]
+**Biconditional Elimination**
+![[Pasted image 20240316085755.png]]
+![[Pasted image 20240316085819.png]]
+**De Morgan's** Law
+![[Pasted image 20240316085927.png]]
+![[Pasted image 20240316090030.png]]
+**Distributive Property**
+![[Pasted image 20240316090148.png]]
+Distributive property can also be defined as 
+![[Pasted image 20240316090228.png]]
+
+### Search Problems
+- Initial state
+- actions
+- transition model
+- goal test
+- path cost funtion
+#### Theorem Proving
+- `initial state`: Starting knowledge base
+- `actions`: inference rules
+- `transition model`: new knowledge base after inference
+- `goal test`: check statement we're trying to prove
+- `path cost function`: number of steps in proof
+
+![[Pasted image 20240316091326.png]]
+![[Pasted image 20240316091359.png]]
+**Complex Inference rules** 
+![[Pasted image 20240316090940.png]]
+![[Pasted image 20240316091018.png]]
+Above inference rule can be generalised to any number of conditions
+![[Pasted image 20240316091111.png]]
+-----------------------------------------------------------------
+![[Pasted image 20240316091158.png]]
+![[Pasted image 20240316091221.png]]
+Generalisation of above rule
+![[Pasted image 20240316091257.png]]
+**Conjunctive normal forms** (CNF)
+__Conversion to CNF__
+- Eliminate biconditionals
+	- turn(⍺ <--> ß) in to (⍺ -> ß)⌃ (ß -> ⍺)
+- Eliminate implications
+	- turn (⍺ -> ß) into  ¬ ⍺ ⌄ ß
+- Move  ¬ inwards using De Morgan's Laws
+	- eg turn ¬(⍺ ⌃ ß) into ¬⍺ ⌄ ¬ß
+- Use distributive law to distribute V where ever possible
+![[Pasted image 20240316093304.png]]
+ ### Inference by resolution
+ The resolution inference rule takes two premises in the form of clauses (_A_ ∨ _x_) and (_B_ ∨ ¬x) and gives the clause (_A_ ∨ _B_) as a conclusion. The two premises are said to be resolved and the variable _x_ is said to be resolved away.
+![[Pasted image 20240316094035.png]]
+![[Pasted image 20240316094249.png]]
+Proving something by contradicting is approach in computer science
+**Resolution** from above step
+![[Pasted image 20240316094621.png]]
+`First order logic` is more effective than `propositional logic` explained above
+
+### `First order logic`
+![[Pasted image 20240316095207.png]]
+
+![[Pasted image 20240316095148.png]]
+![[Pasted image 20240316095331.png]]
+
+#### Universal quantification
+Some thing is going to be true for all values of variable
+![[Pasted image 20240316095616.png]]
+
+#### Existential Quantification
+Some expression is going to be true for some value of a variable, atleast one value of the variable
+![[Pasted image 20240316095821.png]]
+
+![[Pasted image 20240316095919.png]]
+
+`time:3:39min`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
