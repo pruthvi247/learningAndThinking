@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d6b9e4e04813f30",
+            "id": "a26554efcb50153d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
+                "file": "Flutter/flutter-apprentice-book/04-understanding widgets.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.50390243530273,
-    "collapsed": true
+    "width": 304.50390243530273
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
+                "file": "Flutter/flutter-apprentice-book/04-understanding widgets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
+                "file": "Flutter/flutter-apprentice-book/04-understanding widgets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md"
+                "file": "Flutter/flutter-apprentice-book/04-understanding widgets.md"
               }
             }
           },
@@ -168,25 +167,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d6b9e4e04813f30",
+  "active": "a26554efcb50153d",
   "lastOpenFiles": [
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095919.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095821.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095616.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095331.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095207.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316095148.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316094621.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316094249.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316094035.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316093304.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240316091359.png",
+    "Flutter/flutter-apprentice-book/03-chapter-basic-widget.md",
+    "Flutter/flutter-apprentice-book/04-understanding widgets.md",
+    "Flutter/flutter-apprentice-book",
+    "Flutter",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Screenshot 2024-03-21 at 7.31.59 PM.png",
+    "ML/freecodecamp/ml-foreverybody/Machine-learining-for-every-body.md",
     "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf",
+    "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240318201353.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240318142131.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240318141245.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317221654.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317212040.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317211548.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317120634.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317115518.png",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317115259.png",
     "ML/freecodecamp/llm-from-scratch-python.md",
     "ML/freecodecamp/ml-foreverybody",
     "ML/misc/gentle-introduction-to-large-language-models-without-the-hype.md",
-    "ML/freecodecamp/ml-foreverybody/Machine-learining-for-every-body.md",
-    "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
     "ML/freecodecamp/CS50-AI-cource/Pasted image 20240209093437.png.md",
     "ML/freecodecamp/CS50-AI-cource/Pasted image 20240208082056.png.md",
     "ML/freecodecamp/CS50-AI-cource/attachments",
@@ -211,10 +213,7 @@
     "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md",
     "js-learnings/joshcomeau-css-course/00-Treasure-Trove/01-Global Styles.md",
     "js-learnings/joshcomeau-css-course/00-Fundamentals.md",
-    "js-learnings/joshcomeau-css-course/04-Flex-box.md",
     "js-learnings/joshcomeau-css-course/02-RenderingLogic",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove",
-    "js-learnings/joshcomeau-css-course/attachments",
-    "js-learnings/joshcomeau-css-course"
+    "js-learnings/joshcomeau-css-course/00-Treasure-Trove"
   ]
 }

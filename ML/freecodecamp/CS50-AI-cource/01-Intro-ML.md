@@ -168,12 +168,12 @@ In every model in which sentence ⍺ is true, sentence ß is also true
 **Inference**
 The process of deriving new sentences from old ones
 
-P: It is a tuesday
+P: It is a Tuesday
 Q: It is raining
 R: Harry will go for a run
 
 **Model checking**
-- To Determin if KB|=⍺ (kb = knowledge base)
+- To Determine if KB|=⍺ (kb = knowledge base)
 	- Enumerate all possible models
 	- If every model where KB is true, ⍺ is true, then KB entails ⍺
 	- Otherwise, KB does not entail ⍺
@@ -261,14 +261,221 @@ Some expression is going to be true for some value of a variable, atleast one va
 
 ![[Pasted image 20240316095919.png]]
 
-`time:3:39min`
+# Uncertainty
+**Unconditional Probability**
+Degree of belief in a proposition in the absence of any other evidence
 
+**Random variable**
+A variable in probability theory with a domain of possible values it can take on
+ 
+**Conditional Probability**
+Degree of belief in a proposition given some evidence that has already been revealed
+P(a|b) -> Probability of _a_ given _b_
+P(route change | traffic changes)
+P(a|b) = P(a ⌃  b)
+	 .     --------
+		P(b)
+`P(a⌃b)`= `p(b)P(a|b)` or `p(a)p(b|a)`
 
+**Probability Distribution**
+The probability distribution gives the possibility of each outcome of a random experiment or event
+`P(random variable = possible value of domain) = probability value`
 
+```
+P(Flight = on time) = 0.6
+P(Flight = delayed) = 0.3
+P(Flight = cancelled) = 0.1
+```
+or
+`P(Flight)=<0.6,0.3,0.1>`
 
+**Independence**
+The knowledge that one event occurs does not affect the probability of the other event
+eg: clouds and whether are dependent, rolling one dice does not effect another dice roll value, these are independent
 
+`P(a⌃b)`=`p(a)p(b)`
+![[Pasted image 20240317104648.png]]
+this statement of 1/36 is not true, because when you roll a die , either it could be 6 or 4 but not both
+![[Pasted image 20240317104501.png]]
+Above screen shot, probability of  die having value 4 when a die has value of 6 is zero, hence above use case/event is not independent, though it looks independent
 
+Conditional probability is the bridge that lets you talk about how multiple uncertain events are related. It lets you talk about how the probability of an event can vary under different conditions.
 
+For example, consider the probability of winning a race, given the condition you didn't sleep the night before. You might expect this probability to be lower than the probability you'd win if you'd had a full night's sleep.
+![[Pasted image 20240317105114.png]]
+That is, the "probability of event A given event B" is not the same thing as the "probability of event B, given event A".
+>The probability of clouds, given it is raining (100%) is **not** the same as the probability it is raining, given there are clouds.
+
+## Bayes' Rule
+
+Bayes' Rule tells you how to calculate a conditional probability with information you already have.
+
+It is helpful to think in terms of two events – a hypothesis (which can be true or false) and evidence (which can be present or absent).
+![[Pasted image 20240317105252.png]]
+![[Pasted image 20240317105330.png]]
+There are four parts:
+
+- **Posterior probability** (updated probability after the evidence is considered)
+- **Prior probability** (the probability before the evidence is considered)
+- **Likelihood** (probability of the evidence, given the belief is true)
+- **Marginal probability** (probability of the evidence, under any circumstance)
+Bayes' Rule lets you calculate the **posterior (or "updated") probability**. This is a conditional probability. It is the probability of the hypothesis being true, if the evidence is present.
+![[Pasted image 20240317105539.png]]
+![[Pasted image 20240317111302.png]]
+Using one conditional probability we can get the reverse of the conditional probability
+![[Pasted image 20240317111537.png]]
+![[Pasted image 20240317111607.png]]
+**Joint Probability**
+Let A and B be the two events, joint probability is the probability of event B occurring at the same time that event A occurs.
+For any given day what is the probability of both cloudy and raining
+![[Pasted image 20240317111945.png]]
+**1. Find the probability that the number “4” will occur twice when 2 dices are rolled simultaneously.** 
+
+**Solution.** Number of possible outcomes when dice is rolled = 6   
+Let X be the event of number 4 occurring on the first die, whereas Y is the event of number 4 occurring on the second die. 
+X = 1/6   
+Y = 1/6   
+P(X,Y) = 1/6x 1/6 = 1/36 
+
+**2. What is the joint probability of drawing two red cards with the number 9?** 
+
+**Solution.** Event ‘C’ - Probability of drawing a 9 = 2/52  = 0.0384
+Event ‘D’ - Probability of drawing a card that is red = 26/52 = 0.5 
+P(C,D) = 0.0384x0.5 = 0.0192 = 1.92 
+
+**3. Express the probability that in a pack of cards, a card which is drawn is 4 and black.** 
+
+**Solution.** Let ‘A’  be the probability that a card is 4   
+Let ‘B’ be the probability that a card is black. 
+
+P(A,B) = ? 
+A = 4/52 = 0.076 
+B = 2/52  = 0.038 
+P(A,B) = 2.9
+
+**Negation**
+`p(¬a) = 1-P(a)`
+**Inclusion-Exclusion** Principle
+![[Pasted image 20240317112902.png]]
+>n(A⋃B⋃C) = n(A) + n(B) + n(C) – n(A⋂B) – n(A⋂C) – n(B⋂C) + n(A⋂B⋂C)
+#### **marginalisation**
+
+Marginalisation is a method that requires summing over the possible values of one variable to determine the marginal contribution of another.
+Suppose we’re interested in how the weather affects someone’s happiness in the United Kingdom (UK). We can write this mathematically as P(happiness|weather) i.e. what’s the probability of someone’s happiness level given the type of weather.
+
+![[Pasted image 20240317114237.png]]
+When you have joint distribution and when you want to calculate cloudy, consider another variable (rainy)
+![[Pasted image 20240317114155.png]]
+**Conditioning**
+![[Pasted image 20240317114540.png]]
+### Bayesian Network
+Data structure that represents the dependencies among random variables
+![[Pasted image 20240317115259.png]]
+
+![[Pasted image 20240317115518.png]]
+**Sampling**
+![[Pasted image 20240317120634.png]]
+**Markov Assumption**
+The assumption that the current state depends on only a finite fixed number of previous states
+**Hidden Markov Model**
+A Markov model for a system with hidden states that generate some observed events
+# Optimisation
+**state-space landscape**
+The state-space landscape is a graphical representation of the hill-climbing algorithm which is showing a graph between various states of algorithm and Objective function/Cost.
+![[Pasted image 20240317211548.png]]
+- Hill climbing algorithm is a local search algorithm which continuously moves in the direction of increasing elevation/value to find the peak of the mountain or best solution to the problem. It terminates when it reaches a peak value where no neighbor has a higher value.
+- Hill climbing algorithm is a technique which is used for optimizing the mathematical problems. One of the widely discussed examples of Hill climbing algorithm is Traveling-salesman Problem in which we need to minimize the distance traveled by the salesman.
+
+**Sudo code for hill climbing algorithm**
+![[Pasted image 20240317212040.png]]
+**Simulated Annealing**
+- Early on , higher "Temperature": more likely to accept neighbours that are worse than current state
+- Later on , lower "Temperature": less likely to accept neighbors that are worse than current state
+![[Pasted image 20240317221654.png]]
+
+**Linear Programming**
+Minimize a cost function c1x1+c2x2+.... +cnxn
+
+**Linear programming** is an [optimization](https://brilliant.org/wiki/optimization-problems/ "optimization") technique for a [system of linear constraints](https://brilliant.org/wiki/systems-of-inequalities/ "system of linear constraints") and a linear objective function. An **objective function** defines the quantity to be optimized, and the goal of linear programming is to find the values of the variables that maximize or minimize the objective function.
+
+good resource : https://brilliant.org/wiki/linear-programming/
+
+**Backtracking search**
+![[Pasted image 20240318141245.png]]
+**Arch consistency algo**
+Good resource : https://cs.uwaterloo.ca/~a23gao/cs486686_s19/slides/lec05_csp_arc_consistency_backtracking_search_nosol.pdf
+
+![[Pasted image 20240318142131.png]]
+# Learning
+## Supervised learning
+Given a data set of input output pairs, learn a function to map inputs to outputs
+### Classification
+Supervised learning task of leaning a function mapping an input point to a discrete category
+#### Nearest-neighbor classification
+Algorithm that, given an input, choose the class of nearest data point to that input
+#### K-Nearest-neighbor classification
+ Algorithm that, given an input, chooses the most common class out of the k nearest data points to that input
+ #### Perceptron Learning algorithm
+ **Perceptron** is a linear supervised machine learning algorithm. It is used for binary classification.A perceptron takes _inputs_, modifies the inputs using certain _weights_, and then uses a _function_ to output the final result
+ ![[Pasted image 20240318201353.png]]
+ The output generated is based on the input values, �1,�2,...,��x1​,x2​,...,xm​. The output can only have two values (binary classification), usually `1` or `0`.
+
+The summation function (represented by _Σ_ in the above diagram) multiplies the inputs with the weights and then adds them up. This can be represented using the following equation:
+
+`x1​∗w1​+x2​∗w2​+…+wm​∗xm`
+
+**Maximum margin separator**
+Boundary that maximizes the distance between any of the data points
+
+#### Regression
+Supervised learning task of learning a function mapping an input point to a continuous value
+
+**Loss Function**
+Function that expresses how poorly our hypothesis performs
+
+**Regularization**
+Penalizing hypotheses that are more complex to favor simpler, more general hpotheses
+
+**k-fold cross-validation**
+splitting data into k sets, and experimenting k times, using each set as a test set once, and using remaining data as training set
+
+### Reinforcement learning
+Given a set of rewards or punishments, learn what actions to take in the future.
+
+**A Markov decision process (MDP)** is defined as a stochastic decision-making process that uses a mathematical framework to model the decision-making of a dynamic system in scenarios where the results are either random or controlled by a decision maker, which makes sequential decisions over time. This article explains MDP with the help of some real-world examples.
+
+**Function approximation**
+Approximating Q(s,a), often by a function combining various features, rather than storing one value for every state-action pair
+## Unsupervised learning
+Given input data without any additional feedback, learn patterns
+### Clustering
+Organizing a set of objects into groups in such a way that similar objects tend to be in the same group
+**Some clustering Applications**
+- Genetic research
+- image segmentation
+-  market research
+- medical imaging
+- Social network analysis
+#### k-means clustering
+Algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters centers
+
+## Learning
+- Supervised learning
+- Reinforcement learning
+- Unsupervised Learning
+# Neural Network
+### Gradient Descent
+Algorithm for minimising loss when training neural network
+## Computer vision
+**Pooling**
+Reducing the size of an input by sampling from regions in the input
+![[Screenshot 2024-03-21 at 7.31.59 PM.png]]
+### Feed forward neural network
+Feed forward neural networks are [artificial neural networks](https://www.turing.com/kb/importance-of-artificial-neural-networks-in-artificial-intelligence) in which nodes do not form loops. This type of neural network is also known as a multi-layer neural network as all information is only passed forward.
+
+During data flow, input nodes receive data, which travel through hidden layers, and exit output nodes. No links exist in the network that could get used to by sending information back from the output node.
+
+> There are many different types of neural networks
 
 
 
