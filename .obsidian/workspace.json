@@ -8,18 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a26554efcb50153d",
+            "id": "775f07a075b3992b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/flutter-apprentice-book/04-understanding widgets.md",
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/18-Builderpattern.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "18-Builderpattern"
+            }
+          },
+          {
+            "id": "d8fedbaa6e02d1a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/07-Facade.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "07-Facade"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,8 +55,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +74,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -70,14 +94,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 304.50390243530273
+    "width": 273.5
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -93,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flutter/flutter-apprentice-book/04-understanding widgets.md",
+                "file": "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/01-Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +127,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 01-Intro"
             }
           },
           {
@@ -110,10 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flutter/flutter-apprentice-book/04-understanding widgets.md",
+                "file": "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/01-Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 01-Intro"
             }
           },
           {
@@ -124,7 +154,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -133,8 +165,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flutter/flutter-apprentice-book/04-understanding widgets.md"
-              }
+                "file": "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/01-Intro.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 01-Intro"
             }
           },
           {
@@ -146,7 +180,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -167,25 +203,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a26554efcb50153d",
+  "active": "d8fedbaa6e02d1a9",
   "lastOpenFiles": [
-    "Flutter/flutter-apprentice-book/03-chapter-basic-widget.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/attachments/Pasted image 20250210103659.png",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/attachments/Pasted image 20250210103602.png",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/01-Intro.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/02-Adapter-Flutter-Design-Patterns.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/03-Strategy-design-pattern.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/04-Observer-design-pattern.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/07-Facade.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/18-Builderpattern.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/attachments/Pasted image 20250210101314.png",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/attachments/Pasted image 20250210101056.png",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/attachments/Pasted image 20250210100355.png",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/attachments",
+    "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/01-Intro.md",
+    "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/attachments/Pasted image 20241103214740.png",
+    "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/attachments/Pasted image 20241101040511.png",
+    "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/attachments/Pasted image 20241101040130.png",
+    "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/attachments/Pasted image 20241101035807.png",
+    "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/attachments/Pasted image 20241101034952.png",
+    "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC/attachments",
+    "DesignpatternsAndAlgo/Algo/AlgoMisc/DataStructures.md",
+    "DesignpatternsAndAlgo/Algo/DataStructures/DS-EasyToAdvance-Google-Eng-FCC",
+    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/canConstruct.md",
+    "DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/BestSum.md",
     "Flutter/flutter-apprentice-book/04-understanding widgets.md",
+    "Flutter/flutter-apprentice-book/03-chapter-basic-widget.md",
     "Flutter/flutter-apprentice-book",
     "Flutter",
     "ML/freecodecamp/CS50-AI-cource/attachments/Screenshot 2024-03-21 at 7.31.59 PM.png",
     "ML/freecodecamp/ml-foreverybody/Machine-learining-for-every-body.md",
     "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf",
     "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240318201353.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240318142131.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240318141245.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317221654.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317212040.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317211548.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317120634.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317115518.png",
-    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20240317115259.png",
     "ML/freecodecamp/llm-from-scratch-python.md",
     "ML/freecodecamp/ml-foreverybody",
     "ML/misc/gentle-introduction-to-large-language-models-without-the-hype.md",
@@ -200,20 +250,6 @@
     "js-learnings/web-dev-basics-angelayu-udemy/14-Intro-to-javascript-es6.md",
     "js-learnings/web-dev-basics-angelayu-udemy/11-Bootstrap.md",
     "js-learnings/HTML-CSS-Responsive-Udemy/4-web-design-rules.md",
-    "js-learnings/HTML-CSS-Responsive-Udemy/5-components-layoutPatterns.md",
-    "ML/freecodecamp",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/04-Global-Styles.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/100-other-topics.md",
-    "js-learnings/joshcomeau-css-course/02-RenderingLogic.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/5-css.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/6-cssProperties.md",
-    "js-learnings/joshcomeau-css-course/08-animation.md",
-    "js-learnings/HTML-CSS-Responsive-Udemy/2-css.md",
-    "js-learnings/joshcomeau-css-course/01-RenderingLogic.md",
-    "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/01-Global Styles.md",
-    "js-learnings/joshcomeau-css-course/00-Fundamentals.md",
-    "js-learnings/joshcomeau-css-course/02-RenderingLogic",
-    "js-learnings/joshcomeau-css-course/00-Treasure-Trove"
+    "js-learnings/HTML-CSS-Responsive-Udemy/5-components-layoutPatterns.md"
   ]
 }
