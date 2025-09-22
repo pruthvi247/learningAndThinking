@@ -1,4 +1,4 @@
-![[Pasted image 20231103153542.png]]
+css![[Pasted image 20231103153542.png]]
 
 # Pseudo classes
 A Pseudo class in CSS is used to define the special state of an element. It can be combined with a CSS selector to add an effect to existing elements based on their states. For Example, changing the style of an element when the user hovers over it, or when a link is visited. All of these can be done using Pseudo Classes in CSS.

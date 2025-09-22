@@ -469,7 +469,12 @@ Algorithm for minimising loss when training neural network
 ## Computer vision
 **Pooling**
 Reducing the size of an input by sampling from regions in the input
+
+ 
 ![[Screenshot 2024-03-21 at 7.31.59 PM.png]]
+`Cnn-Convenutional neural network`
+![[Pasted image 20250922081257.png]]
+
 ### Feed forward neural network
 Feed forward neural networks are [artificial neural networks](https://www.turing.com/kb/importance-of-artificial-neural-networks-in-artificial-intelligence) in which nodes do not form loops. This type of neural network is also known as a multi-layer neural network as all information is only passed forward.
 
