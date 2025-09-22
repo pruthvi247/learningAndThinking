@@ -52,12 +52,12 @@ Model which has less loss is better performed
 
 ![[Pasted image 20230914094148.png]]
 
-##### Loss funtions
+##### Loss functions
 Far the value is from 0(zero) over x-axis the more the loss is the poor the model is
 ![[Pasted image 20230914094226.png]]
-Loss decreases as performance increasees
+Loss decreases as performance increases
 
-**Binary Crossentropy is the loss function used when there is a classification problem between 2 categories only.**
+**Binary Cross entropy is the loss function used when there is a classification problem between 2 categories only.**
 
 It is self-explanatory from the name _Binary,_ It means 2 quantities, which is why it is constructed in a way that fits the problem of classification of 2 quantities.
 ### Classification models
@@ -162,7 +162,7 @@ Since top right mean error is more, we use loss function to bring it down. Prope
 Different weight have different loss value, which is call back propagation
 ![[Pasted image 20230914100417.png]]
 
-**Ternsor flow** Is predefined opensource code for neural network. Its a open source library to build models
+**Tensor flow** Is predefined open source code for neural network. Its a open source library to build models
 
 
 #### Linear Regression
