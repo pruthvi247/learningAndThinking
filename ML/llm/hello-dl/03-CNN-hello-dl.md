@@ -648,8 +648,10 @@ Pooling compresses them → the network sees **“there’s a vertical edge some
 
 ✅ In short:  
 CNNs = "smart magnifying glasses" that learn to detect patterns → compress them → recognize bigger structures → classify.
+To generate below images run  [python-program-git](https://github.com/pruthvi247/hello-dl-python/blob/main/explanations/translation_invariance_demo.py)
 
 ![[Pasted image 20250923011632.png]]
+![[Pasted image 20250923091756.png]]
 ![[Pasted image 20250923011836.png]]
 ![[Pasted image 20250923011910.png]]
 
@@ -762,3 +764,141 @@ Layer | Output Shape |                         Description
            128 provides good capacity without overfitting
         7. FC2 (10 neurons): Final classification layer
            One neuron per digit class (0-9)
+### Channels in CNN
+In CNN (Convolutional Neural Network) deep learning, **channels** refer to different layers or planes of data within an input or feature map, representing different types of information at each spatial location.[](https://www.baeldung.com/cs/cnn-channels)
+
+---
+## What Do Channels Mean in Practice?
+## Input Channels
+- **For images:**
+    - A **grayscale** image has **1 channel** (just intensity values).
+    - A **color** image (like RGB) has **3 channels** (red, green, blue).
+        - Each pixel at position (x, y) has 3 values: one for R, one for G, one for B.
+- The input image to a CNN is thus a 3D array: **height × width × channels**.
+## Intermediate Channels (Feature Maps)
+- After each convolutional layer, the CNN produces new “channels” called **feature maps**.
+- **Each filter in a convolutional layer produces one channel:**  
+    If you have 32 filters in a layer, you get 32 output channels.
+- These new channels capture different features, such as edges, shapes, textures, or high-level constructs, depending on which layer they come from.[](http://d2l.ai/chapter_convolutional-neural-networks/channels.html)
+## Example
+- An input image (32 × 32 pixels, 3 channels: RGB) has shape (32, 32, 3).
+- After passing through a convolutional layer with 16 filters, the output could be (30, 30, 16)—each channel is a learned feature map.[](https://www.geeksforgeeks.org/machine-learning/introduction-convolution-neural-network/)
+- As you go deeper, the number of channels typically increases, allowing the network to learn more and more abstract features.
+---
+## Why Channels Matter
+
+- **Channels allow CNNs to process and recognize multiple feature types at every location:**
+    - At the first layer, different channels could represent basic shapes (e.g., horizontal edge, vertical edge).
+    - Deeper layers’ channels represent more complex shapes or object parts.[](https://www.baeldung.com/cs/cnn-channels)
+- Stacking channels gives the network a rich, layered understanding of images—crucial for tasks like classification and detection.
+
+In CNN (Convolutional Neural Network) deep learning, **channels** refer to different layers or planes of data within an input or feature map, representing different types of information at each spatial location.
+## Summary Table
+
+|Channel Type|Typical Example|
+|---|---|
+|Input channels|1 (grayscale), 3 (RGB), N (multispectral data)|
+|Feature map channels|Output of each convolution filter (can be dozens or hundreds)|
+|Purpose|Capture diverse information/features at each pixel location|
+
+
+##### Given Convolution Setup:
+
+Input shape: (28, 28) — This means the input image is 28 pixels high and 28 pixels wide (grayscale, so single channel assumed).
+
+Kernels shape: (32, 1, 3, 3)
+  
+32: Number of filters (output channels)
+1: Number of input channels (grayscale image)
+3: Kernel height
+3: Kernel width
+Output shape: (26, 26, 32) — Output height 26, width 26, and 32 channels (one per kernel).
+
+#### Stride
+**Stride** in a Convolutional Neural Network (CNN) refers to the number of pixels (units) the convolutional filter (kernel) moves or "steps" over the input image or feature map during the convolution operation.[1][3]
+
+***
+##### What Exactly Is Stride?
+- When a filter applies convolution, it starts at the top-left corner of the input and slides across the spatial dimensions (height and width).
+- **Stride = 1:** The filter moves one pixel at a time—processing almost every position of the input.
+- **Stride = 2:** The filter skips one pixel between positions—downsampling the output size.
+- Large strides result in smaller output feature maps because fewer positions are visited.
+##### Example
+
+- Input: 7×7 image
+- Kernel: 3×3 filter
+- Padding: 0 (no padding)
+- Stride: 2
+
+Output size:
+
+$$
+\left\lfloor \frac{7 - 3 + 0}{2} \right\rfloor + 1 = \left\lfloor \frac{4}{2} \right\rfloor + 1 = 2 + 1 = 3
+$$
+
+So output size is 3×3.
+#### Padding
+**Padding** in CNNs is the technique of adding extra pixels (usually zeros) around the border of an input image or feature map before applying the convolution operation.[1][2][3][5]
+### Why Padding is Used?
+- When a convolution operation is applied without padding, the output feature map becomes smaller than the input because the kernel needs to fully overlap with the input.
+- This shrinking of the output causes **loss of edge information** and reduces spatial dimensions layer by layer.
+- Padding helps to **preserve the spatial dimensions** of the input throughout the layers.
+- It also allows the kernel to cover the edges of the input fully, ensuring no important border features are missed.
+
+#### Hyperparameters
+In machine learning, **hyperparameters** are external configuration variables set _before_ the training process begins. They control the learning process and the overall structure of the model, as opposed to model parameters (like weights and biases) which are learned _during_ training
+- **Hyperparameters** influence how the learning algorithm works, how fast/slow it learns, and the model's ability to generalize.
+- They are set by the practitioner, not learned from data.
+- Examples include learning rate, batch size, number of layers, kernel size, etc.
+-  **Hyperparameter tuning** (searching for the best values) is crucial for model performance.[](https://www.geeksforgeeks.org/machine-learning/hyperparameter-tuning/)
+    
+- Hyperparameters are NOT updated by the learning process — they must be set before training and can be optimized using grid search, random search, or Bayesian optimization.
+##### Examples of Hyperparameters in CNN Image Classifier Context
+
+|Hyperparameter|Description|Typical Values/Choices|
+|---|---|---|
+|Learning rate|Controls how fast weights/biases are updated during training|0.001, 0.01, etc.|
+|Batch size|Number of samples processed before updating model|16, 32, 64, 128|
+|Number of epochs|Number of times the dataset passes through the model during training|10, 50, 100, ...|
+|Optimizer type|Algorithm for parameter optimization|SGD, Adam, RMSprop|
+|Number of filters|Number of filters in each convolutional layer|16, 32, 64, ...|
+|Kernel size|Size of the convolutional filter|(3,3), (5,5)|
+|Stride|Step size of kernel when scanning over the input|1, 2|
+|Padding|Amount of zero-padding around input|'same', 'valid', 0, 1, ...|
+|Number of layers|Number of convolutional/fully connected layers|2, 3, 10, ...|
+|Pooling size/type|Size/type for pooling operations|(2,2), max/average|
+|Dropout rate|Probability for randomly disabling neurons (for regularization)|0.25, 0.5|
+|Weight initialization|How weights are initialized|random, Xavier, He|
+|Activation function|Function applied after each layer|ReLU, sigmoid, softmax|
+
+#### Schotastic optimaization
+
+## What is Stochastic Gradient Descent (SGD) in CNNs?
+Stochastic optimization—especially **Stochastic Gradient Descent (SGD)**—is a cornerstone for training CNN image classifiers. It efficiently updates the model's parameters (weights) by using gradients computed from small, randomly selected batches or even single examples, instead of the entire dataset
+
+- **Stochastic:** Means “random.” Instead of using all data at once (as in batch gradient descent), SGD picks one or a small batch of samples randomly each update.
+- **Gradient:** Refers to derivatives of the loss function with respect to model parameters.
+- **Descent:** Updates weights by moving opposite to the gradient direction—aiming to minimize loss (error).
+##### Typical CNN Image Classification Example
+
+**Training steps using SGD:**
+
+1. Randomly initialize weights and biases of the CNN.
+2. For each epoch (full pass through data):
+    - Shuffle training data.
+    - For each mini-batch:
+        - Forward pass: Compute output and loss.
+        - Backpropagation: Compute gradient of loss for this batch.
+        - **SGD optimization:** Update weights using gradient and learning rate:
+            θ=θ−η⋅∇θJ(θ)θ=θ−η⋅∇θJ(θ)
+        where θθ is parameter vector, ηη is learning rate, and J(θ)J(θ) is the loss for the batch.[](https://viso.ai/computer-vision/gradient-descent/)
+3. Repeat for desired epochs until convergence or stopped by validation.
+##### Example: MNIST CNN Classifier
+
+On a digit classifier such as MNIST:
+- At each step, the model sees a mini-batch of images (e.g., batch size 32)( 32 distinct/whole images (examples) from the input dataset,e.g., cats, dogs, digits, etc.).
+- The model randomly selects 32 digit images (e.g., “7”, “2”, “5”, etc.) from the dataset. These 32 images form the batch for this iteration.
+- Forward pass produces predictions for these 32 images.
+- Loss (cross entropy) is calculated for batch.
+- Gradients are found using autograd/backpropagation, but only for these 32 images—not for the entire dataset.
+- Model weights are updated, moving "downhill" towards better accuracy.
