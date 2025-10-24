@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js-learnings/vuejs-learnings/fcc-vue.js/01-basics.md",
+                "file": "ML/llm/hello-dl/03-CNN-hello-dl.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-basics"
+              "title": "03-CNN-hello-dl"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -150,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/llm/hello-dl/06-RNN-Basic.md",
+                "file": "ML/llm/hello-dl/03-CNN-hello-dl.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 06-RNN-Basic"
+              "title": "Outline of 03-CNN-hello-dl"
             }
           },
           {
@@ -192,53 +193,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1b3599a79d2c5d6",
+  "active": "10bc19f43f81931e",
   "lastOpenFiles": [
-    "js-learnings/100-rough-plan.md",
-    "js-learnings/vuejs-learnings/fcc-vue.js/01-basics.md",
-    "js-learnings/vuejs-learnings/fcc-vue.js",
-    "misc/company/01-IEMS-Design-Document.md",
-    "misc/company/attachments/Screenshot 2025-10-14 at 3.50.42 PM.png",
-    "misc/company/attachments/Pasted image 20251014180009.png",
-    "misc/company/attachments/Pasted image 20251014164759.png",
-    "misc/company/attachments",
-    "misc/web-hosting/01-subdomain-cloud-flare.md",
-    "misc/company",
-    "ML/misc/prompts/01-mcp-intelligent-monitoring.md",
-    "misc/web-hosting",
-    "ML/misc/prompts",
-    "ML/llm/01-misc-points.md",
-    "ML/llm/attachments/Pasted image 20251010083854.png",
-    "ML/llm/attachments/Pasted image 20251007135158.png",
-    "DesignpatternsAndAlgo/system-designs/01-system-design-misc.md",
-    "ML/llm/RAG",
-    "DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20251007104123.png",
-    "DesignpatternsAndAlgo/system-designs/attachments",
-    "ML/llm/hello-dl/06-RNN-Basic.md",
-    "DesignpatternsAndAlgo/system-designs",
-    "ML/llm/hello-dl/05-DL-optimisation-techniques.md",
-    "ML/llm/hello-dl/03-CNN-hello-dl.md",
-    "ML/llm/hello-dl/04-parallelism-dll.md",
-    "ML/llm/hello-dl/02-RELU-hello-dl.md",
-    "ML/llm/hello-dl/attachments/Pasted image 20250923091756.png",
-    "ML/llm/hello-dl/01-hello-dl.md",
     "ML/llm/hello-dl/attachments/Pasted image 20250923011910.png",
     "ML/llm/hello-dl/attachments/Pasted image 20250923011836.png",
     "ML/llm/hello-dl/attachments/Pasted image 20250923011632.png",
+    "ML/llm/hello-dl/02-RELU-hello-dl.md",
+    "ML/llm/hello-dl/03-CNN-hello-dl.md",
+    "ML/llm/hello-dl/attachments/Screenshot 2025-09-21 at 11.19.00 PM.png",
     "ML/llm/hello-dl/attachments",
+    "ML/llm/hello-dl/01-hello-dl.md",
+    "ML/llm/01-misc-points.md",
     "ML/llm/hello-dl",
+    "ML/llm/attachments/Pasted image 20250922082124.png",
     "ML/freecodecamp/CS50-AI-cource/01-Intro-ML.md",
+    "ML/freecodecamp/CS50-AI-cource/attachments/Pasted image 20250922081257.png",
     "ML/freecodecamp/ml-foreverybody/Machine-learining-for-every-body.md",
     "German-lang/01-Basics.md",
     "js-learnings/HTML-CSS-Responsive-Udemy/2-css.md",
     "js-learnings/HTML-CSS-Responsive-Udemy/3-Layouts.md",
+    "ML/freecodecamp/ml-foreverybody/Machineleariningforeverybody.pdf",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/100-misc-articles.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/01-Intro.md",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/cheatsheet-designpatterns.md",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/attachments/Pasted image 20250917170645.png",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/attachments/Pasted image 20250917170637.png",
+    "DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/attachments",
+    "ML/llm/attachments/Pasted image 20250917165037.png",
+    "ML/llm/attachments",
     "DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/18-Builderpattern.md",
+    "ML/llm",
     "German-lang/00-Guide.md",
     "misc/Influxdb/Ifluxdb.md",
+    "German-lang",
     "js-learnings/html5-css3-fcc/01-intro.md",
-    "js-learnings/joshcomeau-css-course/00-Fundamentals.md"
+    "js-learnings/html5-css3-fcc/attachments/Pasted image 20250810105049.png",
+    "js-learnings/html5-css3-fcc/attachments/Pasted image 20250809224426.png",
+    "js-learnings/html5-css3-fcc/attachments",
+    "js-learnings/joshcomeau-css-course/00-Fundamentals.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/5-components-layoutPatterns.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/6-omnifood-project.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/4-web-design-rules.md",
+    "js-learnings/responsive-css-freecodecamp/01-css.md",
+    "js-learnings/joshcomeau-css-course/01-RenderingLogic.md",
+    "js-learnings/HTML-CSS-Responsive-Udemy/1-html.md",
+    "js-learnings/joshcomeau-css-course/00-Treasure-Trove/01-Global Styles.md",
+    "js-learnings/html5-css3-fcc",
+    "js-learnings/vuejs-learnings/Vue.js and CSS for Production-Grade Frontend Devel.md",
+    "ML/misc/attachments"
   ]
 }
