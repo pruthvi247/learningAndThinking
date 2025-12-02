@@ -1,5 +1,7 @@
 [source-code](https://github.com/williamfiset/Algorithms/blob/master/slides/datastructures/dynamicarray/Arrays.pdf)
 [source](https://www.youtube.com/watch?v=RBSGKlAvoiM)
+
+![[Pasted image 20251103110025.png]]
 # Abstract Data Type
 An abstract data type-ADT is an abstraction of a data structure which provides only the interface to which a data structure must adhere to 
 The interface does not give any specific details about how something should be implemented or in what programming language

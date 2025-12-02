@@ -1,5 +1,5 @@
 {
-  "readableLineLength": true,
+  "readableLineLength": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "./attachments",
   "pdfExportSettings": {
@@ -8,5 +8,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "showUnsupportedFiles": true
 }
