@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "acc910a0d1df8c0e",
+        "id": "ef056de5a1171012",
         "type": "tabs",
         "children": [
           {
-            "id": "bad1c26c042756a8",
+            "id": "f9a75d848b9dc4db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cyborg/misc/01-cache.md",
+                "file": "ML/llm/llm-blogs/llm-design-patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-cache"
-            }
-          },
-          {
-            "id": "d7fc8340e9de7e47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prompts/coding-agent/01-initial-coding-prompts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-initial-coding-prompts"
-            }
-          },
-          {
-            "id": "0abb19ed7503469f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cyborg/misc/01-Roadmap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-Roadmap"
-            }
-          },
-          {
-            "id": "389872888fbbad81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prompts/01-notbook-llm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-notbook-llm"
+              "title": "llm-design-patterns"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.50390243530273
+    "width": 384.51103591918945
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -235,53 +192,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1b3599a79d2c5d6",
+  "active": "f9a75d848b9dc4db",
   "lastOpenFiles": [
     "shift/misc-blogs-content/attachments/Pasted image 20251104095640.png",
+    "ML/llm/llm-blogs/llm-design-patterns.md",
+    "ML/llm/llm-blogs/attachments/Pasted image 20251216203212.png",
+    "ML/llm/llm-blogs/attachments",
+    "ML/llm/llm-blogs",
+    "cyborg/misc/01-cache.md",
     "cyborg/misc/01-Roadmap.md",
+    "shift/misc-blogs-content/attachments",
+    "shift/misc-blogs-content",
+    "shift",
     "prompts/coding-agent/02-Generic-coding-prompt.md",
     "prompts/coding-agent/01-initial-coding-prompts.md",
-    "prompts/Untitled.md",
     "prompts/coding-agent",
-    "cyborg/ethical-hacking-cisco/05-wireless-wired.md",
-    "cyborg/misc/01-cache.md",
-    "cyborg/misc",
-    "cyborg/ethical-hacking-cisco/10-programming-and-tools.md",
     "prompts/01-notbook-llm.md",
-    "cyborg/ethical-hacking-cisco/09-reporting.md",
+    "prompts",
+    "js-learnings/web-dev-basics-angelayu-udemy/16-DOM-intro.md",
+    "js-learnings/web-dev-basics-angelayu-udemy/16-Advanced-DOM.md",
+    "js-learnings/nodejs-setup.md",
+    "cyborg/ethical-hacking-cisco/sample-report/9.1.9_Lab-Explore_PenTest_Reports-Sample_Report.html",
     "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112195405.png",
-    "cyborg/ethical-hacking-cisco/07-mobile-iot-cloud.md",
     "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112194602.png",
     "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112194554.png",
     "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112194548.png",
     "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112194141.png",
-    "cyborg/ethical-hacking-cisco/sample-report/9.1.9_Lab-Explore_PenTest_Reports-Sample_Report.html",
-    "cyborg/ethical-hacking-cisco/sample-report",
-    "cyborg/ethical-hacking-cisco/9.1.9_Lab-Explore_PenTest_Reports-Sample_Report 1.html",
-    "cyborg/ethical-hacking-cisco/9.1.9_Lab-Explore_PenTest_Reports-Sample_Report.html",
     "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112181334.png",
     "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112181208.png",
     "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112171958.png",
+    "cyborg/llm-mentor/02-Resources.md",
+    "cyborg/llm-mentor/01-mentor-prompts.md",
+    "cyborg/ethical-hacking-cisco/sample-report",
+    "cyborg/ethical-hacking-cisco/09-reporting.md",
+    "cyborg/ethical-hacking-cisco/attachments",
+    "cyborg/ethical-hacking-cisco/10-programming-and-tools.md",
+    "cyborg/ethical-hacking-cisco/07-mobile-iot-cloud.md",
     "cyborg/ethical-hacking-cisco/06-web-applications.md",
-    "cyborg/attachments/Pasted image 20251111181053.png",
-    "cyborg/attachments/Pasted image 20251111172545.png",
-    "cyborg/attachments",
+    "cyborg/ethical-hacking-cisco/05-wireless-wired.md",
     "cyborg/ethical-hacking-cisco/03-Info-gathering-reconnaissance.md",
     "cyborg/ethical-hacking-cisco/02-Governance.md",
     "cyborg/ethical-hacking-cisco/01-intro.md",
-    "cyborg/ethical-hacking-cisco/attachments",
-    "prompts",
-    "cyborg/llm-mentor/02-Resources.md",
-    "cyborg/llm-mentor/01-mentor-prompts.md",
-    "cyborg/llm-mentor",
-    "ML/IEMS/docs/notbook-llm.md",
-    "Untitled.md",
-    "ML/IEMS/docs/IEMS_Proposal.md",
-    "ML/IEMS/docs/IEMS_Design_Document.md",
-    "ML/IEMS/docs/high-level-arch.md",
-    "ML/IEMS/docs/conversation-manager.md",
-    "ML/IEMS/docs/conversation-manager.md",
-    "ML/IEMS/docs/Advanced_Agentic_System_Architecture.md",
-    "ML/IEMS/docs/Advanced_Agentic_System_Architecture.md"
+    "ML/llm/agentic/Andrewng-DLAI/Readme.md",
+    "ML/llm/agentic/Andrewng-DLAI/05-Highly-autonomous-agent.md",
+    "ML/llm/agentic/Andrewng-DLAI/04-building-agentic-ai.md",
+    "ML/llm/agentic/Andrewng-DLAI/03-Tool-use.md",
+    "ML/llm/agentic/Andrewng-DLAI/02-Reflection-Design-Pattern.md",
+    "ML/llm/agentic/Andrewng-DLAI/01-agentic-intro.md"
   ]
 }
