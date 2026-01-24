@@ -132,11 +132,11 @@ Network vulnerability tools identify weaknesses in a network's infrastructure, s
 
 Web application vulnerability analysis targets weaknesses in web applications such as SQL injection, cross-site scripting (XSS), or insecure authentication methods.
 
-|**Tool Name**|**Interface**|**Description**|
-|---|---|---|
-|Burp Suite|GUI|Tests web applications for vulnerabilities like SQL injection, cross-site scripting (XSS), and insecure authentication mechanisms.|
-|Nikto|Command line|Scans web servers for dangerous files, outdated software, and common security issues.|
-|OWASP ZAP|GUI|Identifies vulnerabilities in web applications, including XSS and SQL injection.|
+| **Tool Name** | **Interface** | **Description**                                                                                                                    |
+| ------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Burp Suite    | GUI           | Tests web applications for vulnerabilities like SQL injection, cross-site scripting (XSS), and insecure authentication mechanisms. |
+| Nikto         | Command line  | Scans web servers for dangerous files, outdated software, and common security issues.                                              |
+| OWASP ZAP     | GUI           | Identifies vulnerabilities in web applications, including XSS and SQL injection.                                                   |
 
 ## Wireless Network Analysis
 
