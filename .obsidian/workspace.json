@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "74ce9e574f23f66e",
+        "id": "e75e578ff2203e05",
         "type": "tabs",
         "children": [
           {
-            "id": "7c0b44446e2a188a",
+            "id": "dbe0fd0b1a912059",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cyborg/IBM-EH-course/03-Metasploit/03-post-exploitation.md",
+                "file": "cyborg/IBM-EH-course/06-capestone-project/06-reporting-recovery.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-post-exploitation"
+              "title": "06-reporting-recovery"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "softmaxPasted image 20251112194602",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,12 +84,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 384.51103591918945
+    "width": 381.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cyborg/IBM-EH-course/02-Ethicalhakcing-with-kali-linux/02-Metasploit.md",
+                "file": "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/02-Vulnerability-analysis-and-remediation-planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 02-Metasploit"
+              "title": "Backlinks for 02-Vulnerability-analysis-and-remediation-planning"
             }
           },
           {
@@ -192,13 +192,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f413537cfb7bbe5",
+  "active": "dbe0fd0b1a912059",
   "lastOpenFiles": [
-    "cyborg/IBM-EH-course/03-Metasploit/attachments/Pasted image 20260124113321.png",
-    "cyborg/IBM-EH-course/03-Metasploit/attachments/Pasted image 20260124113210.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/04-Post-incident-report.md",
+    "cyborg/IBM-EH-course/06-capestone-project/06-reporting-recovery.md",
+    "cyborg/IBM-EH-course/06-capestone-project/05-GenAI-cybersecurity.md",
+    "cyborg/IBM-EH-course/06-capestone-project/04-Detection-resonse.md",
+    "cyborg/IBM-EH-course/06-capestone-project/02-privilege-escalations.md",
+    "cyborg/IBM-EH-course/06-capestone-project/01-initial-access-exploitation.md",
+    "cyborg/IBM-EH-course/06-capestone-project/03-persistance-techniques.md",
+    "cyborg/IBM-EH-course/06-capestone-project",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125215524.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125215448.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/03-Threat-detection-incident-containment.md",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125211117.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125211048.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125210926.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125204440.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/02-Vulnerability-analysis-and-remediation-planning.md",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125202020.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125201446.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125200101.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125194431.png",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/01-Intro.md",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/01-setup-openvas.pdf",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/01-openvas-labexercise.pdf",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments",
+    "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS/04-Advanced-traffic-analysis.md",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/01-intro",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS",
+    "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS/03-DPI.md",
+    "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS/02-Wireshark.md",
+    "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS/01-Network-forensics-Traffic-Analysis.md",
+    "cyborg/IBM-EH-course/03-Metasploit/03-post-exploitation.md",
+    "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS",
+    "cyborg/IBM-EH-course/03-Metasploit/04-web-social-engineering-Attacks.md",
     "cyborg/IBM-EH-course/03-Metasploit/attachments",
     "cyborg/IBM-EH-course/03-Metasploit/02-Metasploit-modules.md",
-    "cyborg/IBM-EH-course/03-Metasploit/03-post-exploitation.md",
     "cyborg/IBM-EH-course/03-Metasploit/01-Metasploit-intro.md",
     "cyborg/IBM-EH-course/Untitled.md",
     "cyborg/IBM-EH-course/03-Metasploit",
@@ -208,37 +238,7 @@
     "DesignpatternsAndAlgo/system-designs/02-system-arch.md",
     "DesignpatternsAndAlgo/Algo/Untitled.md",
     "DesignpatternsAndAlgo/Algo/AlgoMisc/01-Leader-election-algo.md",
-    "DesignpatternsAndAlgo/Algo/AlgoMisc/attachments/Pasted image 20260112112343.png",
-    "DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20260112112157.png",
     "cyborg/IBM-EH-course/01-Intro-to-EH",
-    "math-concepts/01-t-test.md",
-    "cyborg/IBM-EH-course/02-Ethicalhakcing-with-kali-linux",
-    "prompts/coding-agent/03-jira-ai-codefix.md",
-    "math-concepts",
-    "cyborg/IBM-EH-course/01-Intro-to-EH/01-Intro.md",
-    "cyborg/IBM-EH-course",
-    "cyborg/llm-mentor/01-mentor-prompts.md",
-    "cyborg/misc/01-Roadmap.md",
-    "cyborg/misc/01-cache.md",
-    "DesignpatternsAndAlgo/system-designs/01-cqrs.md",
-    "DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20260104203106.png",
-    "DesignpatternsAndAlgo/system-designs/attachments",
-    "ML/llm/hello-dl/01-hello-dl.md",
-    "DesignpatternsAndAlgo/system-designs",
-    "ML/llm/llm-blogs/llm-design-patterns.md",
-    "shift/misc-blogs-content/attachments/Pasted image 20251104095640.png",
-    "ML/llm/llm-blogs/attachments/Pasted image 20251216203212.png",
-    "ML/llm/llm-blogs/attachments",
-    "ML/llm/llm-blogs",
-    "prompts/coding-agent/02-Generic-coding-prompt.md",
-    "prompts/coding-agent/01-initial-coding-prompts.md",
-    "prompts/01-notbook-llm.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/16-DOM-intro.md",
-    "js-learnings/web-dev-basics-angelayu-udemy/16-Advanced-DOM.md",
-    "js-learnings/nodejs-setup.md",
-    "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112195405.png",
-    "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112194602.png",
-    "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112194554.png",
-    "cyborg/ethical-hacking-cisco/attachments/Pasted image 20251112194548.png"
+    "math-concepts/01-t-test.md"
   ]
 }
