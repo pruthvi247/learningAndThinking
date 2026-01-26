@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cyborg/IBM-EH-course/06-capestone-project/06-reporting-recovery.md",
+                "file": "ML/ml-misc/Machine-learining-for-every-body.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-reporting-recovery"
+              "title": "Machine-learining-for-every-body"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.51103591918945,
-    "collapsed": true
+    "width": 381.51103591918945
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -192,10 +191,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbe0fd0b1a912059",
+  "active": "f1b3599a79d2c5d6",
   "lastOpenFiles": [
-    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/04-Post-incident-report.md",
+    "workspace/DesignpatternsAndAlgo/system-designs/03-raftalog.txt",
+    "workspace/DesignpatternsAndAlgo/system-designs/raftalog.txt",
+    "workspace/DesignpatternsAndAlgo/raftalog.txt",
+    "workspace/DesignpatternsAndAlgo/raftalog.textClipping",
+    "misc/how-to-use-ssh-file.md",
+    "ML/ml-misc/Machine-learining-for-every-body.md",
+    "workspace/project-work",
+    "ML/ml-misc/gentle-introduction-to-large-language-models-without-the-hype.md",
+    "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
+    "workspace/readme.md.md",
+    "README.md",
+    "cyborg/cyborg-misc/01-Roadmap.md",
+    "workspace",
+    "cyborg/llm-mentor/Pasted image 20251104095640.png",
+    "cyborg/llm-mentor/02-Resources.md",
+    "workspace/DesignpatternsAndAlgo/system-designs/02-system-arch.md",
+    "workspace/DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20260126133056.png",
     "cyborg/IBM-EH-course/06-capestone-project/06-reporting-recovery.md",
+    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/04-Post-incident-report.md",
     "cyborg/IBM-EH-course/06-capestone-project/05-GenAI-cybersecurity.md",
     "cyborg/IBM-EH-course/06-capestone-project/04-Detection-resonse.md",
     "cyborg/IBM-EH-course/06-capestone-project/02-privilege-escalations.md",
@@ -212,33 +228,16 @@
     "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/02-Vulnerability-analysis-and-remediation-planning.md",
     "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125202020.png",
     "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125201446.png",
-    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125200101.png",
-    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments/Pasted image 20260125194431.png",
     "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/01-Intro.md",
     "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/01-setup-openvas.pdf",
     "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/01-openvas-labexercise.pdf",
     "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/attachments",
     "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS/04-Advanced-traffic-analysis.md",
     "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/01-intro",
-    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS",
     "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS/03-DPI.md",
     "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS/02-Wireshark.md",
     "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS/01-Network-forensics-Traffic-Analysis.md",
     "cyborg/IBM-EH-course/03-Metasploit/03-post-exploitation.md",
-    "cyborg/IBM-EH-course/04-Network-Traffic-Analysis-WS",
-    "cyborg/IBM-EH-course/03-Metasploit/04-web-social-engineering-Attacks.md",
-    "cyborg/IBM-EH-course/03-Metasploit/attachments",
-    "cyborg/IBM-EH-course/03-Metasploit/02-Metasploit-modules.md",
-    "cyborg/IBM-EH-course/03-Metasploit/01-Metasploit-intro.md",
-    "cyborg/IBM-EH-course/Untitled.md",
-    "cyborg/IBM-EH-course/03-Metasploit",
-    "cyborg/IBM-EH-course/02-Ethicalhakcing-with-kali-linux/00-os-boot-topics.md",
-    "cyborg/IBM-EH-course/02-Ethicalhakcing-with-kali-linux/01-kali linux.md",
-    "cyborg/llm-mentor/02-Resources.md",
-    "DesignpatternsAndAlgo/system-designs/02-system-arch.md",
-    "DesignpatternsAndAlgo/Algo/Untitled.md",
-    "DesignpatternsAndAlgo/Algo/AlgoMisc/01-Leader-election-algo.md",
-    "cyborg/IBM-EH-course/01-Intro-to-EH",
-    "math-concepts/01-t-test.md"
+    "cyborg/IBM-EH-course/03-Metasploit/04-web-social-engineering-Attacks.md"
   ]
 }

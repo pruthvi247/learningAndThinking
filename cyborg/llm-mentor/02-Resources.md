@@ -982,3 +982,4 @@ YouTube without hands-on is wasted effort
 
 ✔ **Use guided labs** (TryHackMe / HTB / OWASP labs)  
 Your brain learns best when the keyboard is involved
+![[Pasted image 20251104095640.png]]

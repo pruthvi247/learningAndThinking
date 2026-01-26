@@ -50,7 +50,7 @@ To start using the Flexbox model, you need to first define a flex container.
 
 Examples:
 `same layout but with different approaches`
-![[js-learnings/attachments/flex.html]]
+![[workspace/js-learnings/attachments/flex.html]]
 ![[absolute-position.html]]![[float.html]]
 ![[html-table.html]]
 
