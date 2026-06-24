@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ml-misc/spark-concepts.md",
+                "file": "cyborg/cyborg-misc/03-hpbn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spark-concepts"
+              "title": "03-hpbn"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50390243530273
+    "width": 347.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -193,16 +194,28 @@
   },
   "active": "dbe0fd0b1a912059",
   "lastOpenFiles": [
+    "cyborg/cyborg-misc/attachments/Pasted image 20260617155859.png",
+    "cyborg/cyborg-misc/attachments/Pasted image 20260616074427.png",
+    "cyborg/cyborg-misc/attachments/Pasted image 20260616074219.png",
+    "cyborg/cyborg-misc/attachments/Pasted image 20260616065416.png",
+    "cyborg/cyborg-misc/attachments/Pasted image 20260615191543.png",
+    "cyborg/cyborg-misc/attachments/Pasted image 20260614203715.png",
+    "cyborg/cyborg-misc/attachments",
+    "cyborg/cyborg-misc/Untitled 1.md",
+    "cyborg/cyborg-misc/03-hpbn.md",
+    "cyborg/cyborg-misc/Untitled.md",
+    "cyborg/cyborg-misc/02-Cyptography-Mod.md",
+    "cyborg/seculum-2026/01-softskills-understanding-audience.md",
+    "cyborg/llm-mentor/01-Roadmap.md",
+    "cyborg/cyborg-misc/01-cache.md",
+    "cyborg/seculum-2026",
+    "ML/ml-misc/spark-concepts.md",
     "ML/ml-misc/attachments/Pasted image 20260407085616.png",
     "ML/ml-misc/attachments/Pasted image 20260407085526.png",
     "ML/ml-misc/attachments/Pasted image 20260407085419.png",
     "ML/ml-misc/attachments/Pasted image 20260407085401.png",
     "ML/ml-misc/attachments/Pasted image 20260407085249.png",
-    "ML/ml-misc/attachments/Pasted image 20260407085226.png",
     "workspace/DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/software-design-principles.md",
-    "ML/ml-misc/spark-concepts.md",
-    "workspace/DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/attachments/Pasted image 20260311141227.png",
-    "workspace/DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/attachments/Pasted image 20260311141155.png",
     "ML/llm/agentic/Andrewng-DLAI/05-Highly-autonomous-agent.md",
     "workspace/DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/02-Tutorial/01-Intro.md",
     "workspace/DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/01-Tutorial/BestSum.md",
@@ -210,11 +223,8 @@
     "workspace/DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/01-Tutorial/camSum.md",
     "workspace/DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/01-Tutorial",
     "workspace/DesignpatternsAndAlgo/system-designs/04-git-storage.md",
-    "workspace/DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20260202142018.png",
     "workspace/DesignpatternsAndAlgo/system-designs/01-memory.md",
     "ML/llm/llm-blogs/02-LLM-Batch_processing_system.md",
-    "workspace/DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20260202130833.png",
-    "workspace/DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20260202130524.png",
     "cyborg/llm-mentor/03-notebook-llm-notes-summary.md",
     "cyborg/IBM-EH-course/03-Metasploit/02-Metasploit-modules.md",
     "ML/ml-misc/Machine-learining-for-every-body.md",
@@ -228,16 +238,7 @@
     "ML/gentle-introduction-to-large-language-models-without-the-hype.md",
     "workspace/readme.md.md",
     "README.md",
-    "cyborg/cyborg-misc/01-Roadmap.md",
     "workspace",
-    "cyborg/llm-mentor/02-Resources.md",
-    "workspace/DesignpatternsAndAlgo/system-designs/02-system-arch.md",
-    "cyborg/IBM-EH-course/06-capestone-project/06-reporting-recovery.md",
-    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/04-Post-incident-report.md",
-    "cyborg/IBM-EH-course/06-capestone-project/05-GenAI-cybersecurity.md",
-    "cyborg/IBM-EH-course/06-capestone-project/04-Detection-resonse.md",
-    "cyborg/IBM-EH-course/06-capestone-project/02-privilege-escalations.md",
-    "cyborg/IBM-EH-course/06-capestone-project",
-    "cyborg/IBM-EH-course/05-IncidentResponse-openVAS/01-setup-openvas.pdf"
+    "cyborg/llm-mentor/02-Resources.md"
   ]
 }
