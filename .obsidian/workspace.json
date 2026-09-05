@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e75e578ff2203e05",
+        "id": "54db86002825d8fa",
         "type": "tabs",
         "children": [
           {
-            "id": "60fdae81359e4bc9",
+            "id": "671ca9dad244f6da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/token-talk/Level-up-coding.md",
+                "file": "ML/llm/agentic/Andrewng-DLAI/05-Highly-autonomous-agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Level-up-coding"
-            }
-          },
-          {
-            "id": "f33c7f54ae25b29a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "misc/token-talk/02-prompting-guidelines.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02-prompting-guidelines"
-            }
-          },
-          {
-            "id": "ecd765940dd844fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "misc/token-talk/01-notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-notes"
+              "title": "05-Highly-autonomous-agent"
             }
           }
         ]
@@ -69,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -116,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.50390243530273
+    "width": 254.13702011108398
   },
   "right": {
     "id": "2077da14332d88d9",
@@ -219,52 +193,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60fdae81359e4bc9",
+  "active": "671ca9dad244f6da",
   "lastOpenFiles": [
-    "misc/token-talk/10-my-notes.md",
-    "misc/token-talk/Level-up-coding.md",
-    "misc/token-talk/01-notes.md",
-    "misc/token-talk/attachments/1784090182313.jpeg",
-    "misc/token-talk/02-prompting-guidelines.md",
-    "misc/token-talk/attachments/Screenshot 2026-07-22 at 2.07.25 AM.png",
-    "misc/token-talk/attachments/Pasted image 20260722023302.png",
-    "misc/token-talk/attachments/Pasted image 20260722024908.png",
-    "misc/token-talk/Untitled.base",
-    "misc/token-talk/Untitled 1.base",
-    "misc/token-talk/attachments/Screenshot 2026-07-22 at 1.34.43 AM.png",
-    "misc/token-talk/attachments/Screenshot 2026-07-22 at 1.10.27 AM.png",
-    "misc/token-talk/attachments/Screenshot 2026-07-22 at 12.44.15 AM.png",
-    "misc/token-talk/attachments/Pasted image 20260722002102.png",
-    "misc/token-talk/attachments/Pasted image 20260721230401.png",
-    "misc/token-talk/attachments/Pasted image 20260721225932.png",
-    "misc/token-talk/attachments",
-    "cyborg/seculum-2026/01-softskills-understanding-audience.md",
-    "misc/token-talk",
-    "cyborg/seculum-2026/02-Crypto Training Challenges Day 2 Participants.pdf",
+    "ML/llm/agentic/Andrewng-DLAI/03-Tool-use.md",
+    "cyborg/llm-mentor/03-notebook-llm-notes-summary.md",
     "cyborg/cyborg-misc/03-hpbn.md",
-    "cyborg/cyborg-misc/attachments",
+    "cyborg/seculum-2026/03-crypto/00-cryptography_study_guide.md",
+    "cyborg/seculum-2026/02-Crypto Training Challenges Day 2 Participants.pdf",
+    "cyborg/system-deep-dive/01-assembly-intro.md",
+    "cyborg/seculum-2026/03-crypto/02_vItC_Symmetric.pdf",
+    "workspace/DesignpatternsAndAlgo/system-designs/05-uber-rate-limiting-db-load-management.md",
+    "workspace/DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20260901135031.png",
+    "workspace/DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20260901135000.png",
+    "workspace/DesignpatternsAndAlgo/system-designs/attachments/Pasted image 20260901114015.png",
+    "workspace/DesignpatternsAndAlgo/flutterDesignPatterns/design_patterns_series/100-misc-articles.md",
+    "misc/token-talk/01-notes.md",
+    "cyborg/seculum-2026/03-crypto/03_vItC_Asymmetric.pdf",
+    "cyborg/seculum-2026/03-crypto/01-presentation-content.md",
+    "cyborg/seculum-2026/03-crypto/attachments/Pasted image 20260826143514.png",
+    "cyborg/seculum-2026/03-crypto/attachments/Pasted image 20260826143404.png",
+    "cyborg/seculum-2026/03-crypto/attachments/Pasted image 20260826142944.png",
+    "cyborg/seculum-2026/03-crypto/attachments/Pasted image 20260826142838.png",
+    "cyborg/seculum-2026/03-crypto/attachments/Pasted image 20260826142228.png",
+    "cyborg/seculum-2026/03-crypto/attachments",
+    "cyborg/seculum-2026/04-TAM/SAP-TAM_Standard.pdf",
+    "cyborg/seculum-2026/04-TAM",
+    "cyborg/seculum-2026/03-crypto",
+    "ML/llm/agentic/Andrewng-DLAI/attachments/Pasted image 20260824142311.png",
+    "cyborg/seculum-2026/~$TAM-Copytemplate.pptx",
+    "misc/token-talk/02-prompting-guidelines.md",
+    "misc/token-talk/Level-up-coding.md",
+    "cyborg/seculum-2026/04-TAM/TAM-Copytemplate.pptx",
+    "misc/token-talk/10-my-notes.md",
+    "misc/token-talk/attachments/1784090182313.jpeg",
+    "misc/token-talk/Untitled.base",
+    "cyborg/seculum-2026/01-softskills-understanding-audience.md",
     "cyborg/cyborg-misc/Untitled 1.md",
     "cyborg/cyborg-misc/Untitled.md",
     "cyborg/cyborg-misc/02-Cyptography-Mod.md",
     "cyborg/llm-mentor/01-Roadmap.md",
     "cyborg/cyborg-misc/01-cache.md",
-    "cyborg/seculum-2026",
     "ML/ml-misc/spark-concepts.md",
     "workspace/DesignpatternsAndAlgo/flutterDesignPatterns/design_pattern_misc/software-design-principles.md",
     "ML/llm/agentic/Andrewng-DLAI/05-Highly-autonomous-agent.md",
     "workspace/DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/02-Tutorial/01-Intro.md",
     "workspace/DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/01-Tutorial/BestSum.md",
-    "workspace/DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/02-Tutorial",
     "workspace/DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/01-Tutorial/camSum.md",
-    "workspace/DesignpatternsAndAlgo/Algo/dynamic-programming/Freecodecamp/01-Tutorial",
     "workspace/DesignpatternsAndAlgo/system-designs/04-git-storage.md",
-    "workspace/DesignpatternsAndAlgo/system-designs/01-memory.md",
-    "ML/llm/llm-blogs/02-LLM-Batch_processing_system.md",
-    "cyborg/llm-mentor/03-notebook-llm-notes-summary.md",
-    "cyborg/IBM-EH-course/03-Metasploit/02-Metasploit-modules.md",
-    "ML/ml-misc/Machine-learining-for-every-body.md",
-    "workspace/DesignpatternsAndAlgo/system-designs/03-raftalog.txt",
-    "misc/how-to-use-ssh-file.md",
-    "ML/ml-misc/gentle-introduction-to-large-language-models-without-the-hype.md"
+    "workspace/DesignpatternsAndAlgo/system-designs/01-memory.md"
   ]
 }
